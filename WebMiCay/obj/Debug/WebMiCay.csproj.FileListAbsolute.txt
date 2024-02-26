@@ -1,0 +1,652 @@
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\WebMiCay.dll.config
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\WebMiCay.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\WebMiCay.pdb
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\csc.exe
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\csc.exe.config
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\csc.rsp
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\csi.exe
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\csi.exe.config
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\csi.rsp
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.AppContext.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Console.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Net.Http.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.ValueTuple.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\vbc.exe
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\vbc.exe.config
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\vbc.rsp
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\Antlr3.Runtime.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\Newtonsoft.Json.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.Helpers.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.Mvc.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.Optimization.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.Razor.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.WebPages.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\WebGrease.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.Helpers.xml
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.Mvc.xml
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.Optimization.xml
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.Razor.xml
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.WebPages.xml
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.xml
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\Newtonsoft.Json.xml
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\Antlr3.Runtime.pdb
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CopyComplete
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\obj\Debug\WebMiCay.dll
+C:\Users\ACER\source\repos\WebMiCay\WebMiCay\obj\Debug\WebMiCay.pdb
+E:\c#\WebMiCay\WebMiCay\bin\WebMiCay.dll.config
+E:\c#\WebMiCay\WebMiCay\bin\WebMiCay.dll
+E:\c#\WebMiCay\WebMiCay\bin\WebMiCay.pdb
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\csc.exe
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\csc.exe.config
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\csc.rsp
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\csi.exe
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\csi.exe.config
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\csi.rsp
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Managed.Core.targets
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.AppContext.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Collections.Immutable.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Console.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Globalization.Calendars.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Net.Http.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Net.Sockets.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Reflection.Metadata.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.ValueTuple.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XmlDocument.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\vbc.exe
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\vbc.exe.config
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\vbc.rsp
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe
+E:\c#\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe.config
+E:\c#\WebMiCay\WebMiCay\bin\Antlr3.Runtime.dll
+E:\c#\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\c#\WebMiCay\WebMiCay\bin\Microsoft.Web.Infrastructure.dll
+E:\c#\WebMiCay\WebMiCay\bin\Newtonsoft.Json.dll
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.Helpers.dll
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.Mvc.dll
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.Optimization.dll
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.Razor.dll
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.dll
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.WebPages.dll
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.dll
+E:\c#\WebMiCay\WebMiCay\bin\WebGrease.dll
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.Helpers.xml
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.Mvc.xml
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.Optimization.xml
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.Razor.xml
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.WebPages.xml
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.xml
+E:\c#\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.xml
+E:\c#\WebMiCay\WebMiCay\bin\Newtonsoft.Json.xml
+E:\c#\WebMiCay\WebMiCay\bin\Antlr3.Runtime.pdb
+E:\c#\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\c#\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.AssemblyReference.cache
+E:\c#\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CoreCompileInputs.cache
+E:\c#\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CopyComplete
+E:\c#\WebMiCay\WebMiCay\obj\Debug\WebMiCay.dll
+E:\c#\WebMiCay\WebMiCay\obj\Debug\WebMiCay.pdb
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\WebMiCay.dll.config
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\WebMiCay.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\WebMiCay.pdb
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\csc.exe
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\csc.exe.config
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\csc.rsp
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\csi.exe
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\csi.exe.config
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\csi.rsp
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.AppContext.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Collections.Immutable.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Console.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Globalization.Calendars.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Net.Http.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Net.Sockets.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Reflection.Metadata.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.ValueTuple.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\vbc.exe
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\vbc.exe.config
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\vbc.rsp
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe.config
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\Antlr3.Runtime.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\Microsoft.Web.Infrastructure.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\Newtonsoft.Json.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.Helpers.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.Mvc.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.Optimization.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.Razor.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.WebPages.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\WebGrease.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.Helpers.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.Mvc.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.Optimization.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.Razor.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.WebPages.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\Newtonsoft.Json.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\Antlr3.Runtime.pdb
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.AssemblyReference.cache
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CoreCompileInputs.cache
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CopyComplete
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\obj\Debug\WebMiCay.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\obj\Debug\WebMiCay.pdb
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\WebMiCay.dll.config
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\WebMiCay.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\WebMiCay.pdb
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\csc.exe
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\csc.exe.config
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\csc.rsp
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\csi.exe
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\csi.exe.config
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\csi.rsp
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.AppContext.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Console.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Net.Http.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.ValueTuple.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\vbc.exe
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\vbc.exe.config
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\vbc.rsp
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\Antlr3.Runtime.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\Newtonsoft.Json.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.Helpers.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.Mvc.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.Optimization.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.Razor.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.WebPages.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\WebGrease.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.Helpers.xml
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.Mvc.xml
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.Optimization.xml
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.Razor.xml
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.WebPages.xml
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.xml
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\Newtonsoft.Json.xml
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\Antlr3.Runtime.pdb
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.AssemblyReference.cache
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CopyComplete
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\obj\Debug\WebMiCay.dll
+C:\Users\ACER\Downloads\mì cay\WebMiCay\WebMiCay\obj\Debug\WebMiCay.pdb
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\WebMiCay.dll.config
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\WebMiCay.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\WebMiCay.pdb
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\csc.exe
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\csc.exe.config
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\csc.rsp
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\csi.exe
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\csi.exe.config
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\csi.rsp
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.AppContext.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Console.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Net.Http.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.ValueTuple.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\vbc.exe
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\vbc.exe.config
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\vbc.rsp
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\Antlr3.Runtime.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\Newtonsoft.Json.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.Helpers.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.Mvc.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.Optimization.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.Razor.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.WebPages.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\WebGrease.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.Helpers.xml
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.Mvc.xml
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.Optimization.xml
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.Razor.xml
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.WebPages.xml
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.xml
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\Newtonsoft.Json.xml
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\Antlr3.Runtime.pdb
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.AssemblyReference.cache
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CopyComplete
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\obj\Debug\WebMiCay.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\obj\Debug\WebMiCay.pdb
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\EntityFramework.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\EntityFramework.SqlServer.dll
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\EntityFramework.xml
+C:\Users\ACER\Downloads\WebMiCay\WebMiCay\bin\EntityFramework.SqlServer.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\EntityFramework.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\EntityFramework.SqlServer.dll
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\EntityFramework.xml
+D:\Study\HK1 2023-2024\BTL_PTTKHT\WebMiCay\WebMiCay\bin\EntityFramework.SqlServer.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\WebMiCay.dll.config
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\WebMiCay.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\WebMiCay.pdb
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\csc.exe
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\csc.exe.config
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\csc.rsp
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\csi.exe
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\csi.exe.config
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\csi.rsp
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.AppContext.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Collections.Immutable.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Console.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Globalization.Calendars.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Net.Http.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Net.Sockets.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Reflection.Metadata.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.ValueTuple.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\vbc.exe
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\vbc.exe.config
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\vbc.rsp
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe.config
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\Antlr3.Runtime.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\EntityFramework.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\EntityFramework.SqlServer.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\Microsoft.Web.Infrastructure.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\Newtonsoft.Json.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.Helpers.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.Mvc.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.Optimization.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.Razor.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.WebPages.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\WebGrease.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\EntityFramework.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\EntityFramework.SqlServer.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.Helpers.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.Mvc.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.Optimization.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.Razor.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.WebPages.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\Newtonsoft.Json.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\Antlr3.Runtime.pdb
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.AssemblyReference.cache
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CoreCompileInputs.cache
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CopyComplete
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\obj\Debug\WebMiCay.dll
+D:\Mì Cay\Spicy_noodle_restaurant_management_Website\WebMiCay\WebMiCay\obj\Debug\WebMiCay.pdb
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\WebMiCay.dll.config
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\WebMiCay.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\WebMiCay.pdb
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\csc.exe
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\csc.exe.config
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\csc.rsp
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\csi.exe
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\csi.exe.config
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\csi.rsp
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.AppContext.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Collections.Immutable.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Console.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Globalization.Calendars.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Net.Http.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Net.Sockets.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Reflection.Metadata.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.ValueTuple.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\vbc.exe
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\vbc.exe.config
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\vbc.rsp
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe.config
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\Antlr3.Runtime.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\EntityFramework.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\EntityFramework.SqlServer.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\Microsoft.Web.Infrastructure.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\Newtonsoft.Json.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.Helpers.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.Mvc.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.Optimization.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.Razor.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.WebPages.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\WebGrease.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\EntityFramework.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\EntityFramework.SqlServer.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.Helpers.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.Mvc.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.Optimization.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.Razor.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.WebPages.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\Newtonsoft.Json.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\Antlr3.Runtime.pdb
+D:\Mì Cay chính\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Mì Cay chính\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.AssemblyReference.cache
+D:\Mì Cay chính\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CoreCompileInputs.cache
+D:\Mì Cay chính\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CopyComplete
+D:\Mì Cay chính\WebMiCay\WebMiCay\obj\Debug\WebMiCay.dll
+D:\Mì Cay chính\WebMiCay\WebMiCay\obj\Debug\WebMiCay.pdb
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\WebMiCay.dll.config
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\WebMiCay.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\WebMiCay.pdb
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\csc.exe
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\csc.exe.config
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\csc.rsp
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\csi.exe
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\csi.exe.config
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\csi.rsp
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.AppContext.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Console.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Net.Http.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.ValueTuple.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\vbc.exe
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\vbc.exe.config
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\vbc.rsp
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\Antlr3.Runtime.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\EntityFramework.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\EntityFramework.SqlServer.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\Newtonsoft.Json.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.Helpers.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.Mvc.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.Optimization.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.Razor.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.WebPages.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\WebGrease.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\EntityFramework.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\EntityFramework.SqlServer.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.Helpers.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.Mvc.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.Optimization.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.Razor.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.WebPages.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\System.Web.WebPages.Razor.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\Newtonsoft.Json.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\Antlr3.Runtime.pdb
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.AssemblyReference.cache
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\obj\Debug\WebMiCay.csproj.CopyComplete
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\obj\Debug\WebMiCay.dll
+C:\Users\ACER\Downloads\File báo cáo\WebMiCay\WebMiCay\obj\Debug\WebMiCay.pdb

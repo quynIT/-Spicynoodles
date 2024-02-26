@@ -1,0 +1,138 @@
+﻿@model WebMiCay.Areas.Admin.Models.DishViewModel
+@{
+    ViewBag.Title = "Updatedish";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <link rel="canonical"
+          href="https://www.wrappixel.com/templates/ample-admin-lite/" />
+    <link href="~/Areas/Admin/Assets/Client/css/style.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+
+    <div id="main-wrapper"
+         data-layout="vertical"
+         data-navbarbg="skin5"
+         data-sidebartype="full"
+         data-sidebar-position="absolute"
+         data-header-position="absolute"
+         data-boxed-layout="full">
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column -->
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="col-lg-8 col-xlg-9 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                @*@using (Html.BeginForm("Updatedish", "Dish", FormMethod.Post, new { enctype = "multipart/form-data", onsubmit = "return validateForm()" }))
+        {*@
+                                <form class="form-horizontal form-material" method="post" enctype="multipart/form-data">
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0">Tên món</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="text"
+                                                   placeholder="Tên món"
+                                                   class="form-control p-0 border-0"
+                                                   name="tenMon" />
+                                            @if (!String.IsNullOrEmpty(ViewBag.ErrorMessage))
+                                            {
+                                                <div class="alert alert-danger">
+                                                    @ViewBag.ErrorMessage
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0">Giá món</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="text"
+                                                   placeholder="VNĐ"
+                                                   class="form-control p-0 border-0"
+                                                   name="giaCa" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group mb-4">
+                                            <label class="col-md-12 p-0">Ảnh món</label>
+                                            <div class="col-md-12 border-bottom p-0">
+                                                <input type="file"
+                                                       class="form-control p-0 border-0"
+                                                       name="anhMon" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0">Mã thể loại</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <select class="form-control p-0 border-0" name="maTheLoai">
+                                                <option value="">Chọn thể loại</option>
+                                                @foreach (var theLoai in Model.DSTheLoaiMon)
+                                                {
+                                                    <option value="@theLoai.MaTheLoai">@theLoai.TenTheLoai</option>
+
+                                                }
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <div class="col-sm-12">
+                                            <button class="btn btn-success">Cập nhật thông tin</button>
+                                        </div>
+                                    </div>
+                                    @*}*@
+                                    </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Areas/Admin/Assets/Client/js/jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/app-style-switcher.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/waves.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/custom.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/sidebarmenu.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            $(function () {
+                $(".file-upload-browse").on("click", function () {
+                    var file = $(this)
+                        .parent()
+                        .parent()
+                        .parent()
+                        .find(".file-upload-default");
+                    file.trigger("click");
+                });
+                $(".file-upload-default").on("change", function () {
+                    $(this)
+                        .parent()
+                        .find(".form-control")
+                        .val(
+                            $(this)
+                                .val()
+                                .replace(/C:\\fakepath\\/i, "")
+                        );
+                });
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>

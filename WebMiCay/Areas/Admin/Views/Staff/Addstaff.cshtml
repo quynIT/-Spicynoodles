@@ -1,0 +1,304 @@
+﻿@model WebMiCay.Areas.Admin.Models.StaffViewModel
+@{
+    ViewBag.Title = "Addstaff";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<link rel="canonical"
+      href="https://www.wrappixel.com/templates/ample-admin-lite/" />
+<link href="~/Areas/Admin/Assets/Client/css/style.min.css" rel="stylesheet" />
+<body>
+    <div class="page-wrapper">
+        <div class="col-lg-8 col-xlg-9 col-md-12" style="margin-left:30px">
+            <h3 class="hide-menu">Thêm Tài Khoản</h3>
+            <div class="card">
+                <div class="card-body">
+                    <form class="form-horizontal form-material" method="post">
+                        <div class="form-group mb-4">
+                            <label class="col-md-12 p-0">Tên nhân viên</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="text"
+                                       class="form-control p-0 border-0"
+                                       name=TenNV />
+                                <div class="alert alert-danger" style="display: none;">
+                                    Không được để trống!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label for="example-email" class="col-md-12 p-0">Số điện thoại</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="text"
+                                       class="form-control p-0 border-0"
+                                       name="SDTNV"
+                                       id="example-email" />
+                                <div class="alert alert-danger" style="display: none;">
+                                    Không được để trống!
+                                </div>
+                                <div class="alert alert-danger hidden" style="display: none;">
+                                    Phải có 10 số!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label class="col-md-12 p-0">Ngày sinh:</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="date"
+                                       class="form-control p-0 border-0"
+                                       name="NgaySinh"
+                                       asp-for="NgaySinh" asp-format="{0:dd/MM/yyyy}" />
+                                <div class="alert alert-danger hidden" style="display: none;">
+                                    Không được để trống!
+                                </div>
+                                <div class="alert alert-danger hidden" style="display: none;">
+                                    Phải lớn hơn hoặc bằng 18 tuổi!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label class="col-md-12 p-0">Địa chỉ:</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="text"
+                                       class="form-control p-0 border-0"
+                                       name="DiaChi" />
+                                <div class="alert alert-danger" style="display: none;">
+                                    Không được để trống!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label class="col-sm-12">Giới tính</label>
+                            <div class="col-sm-12 border-bottom">
+                                <select class="form-select shadow-none p-0 border-0 form-control-line" name="GioiTinh">
+                                    <option>Lựa chọn giới tính</option>
+                                    <option>Nam</option>
+                                    <option>Nữ</option>
+                                </select>
+                                <div class="alert alert-danger hidden" style="display: none;">
+                                    Phải chọn giới tính!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label class="col-md-12 p-0">Username</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="text"
+                                       name="TenTaiKhoanNV"
+                                       class="form-control p-0 border-0" />
+                                <div class="alert alert-danger hidden" style="display: none;">
+                                    Không được để trống!
+                                </div>
+                                @if (!String.IsNullOrEmpty(ViewBag.ErrorMessage))
+                                {
+                                    <div class="alert alert-danger">
+                                        @ViewBag.ErrorMessage
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label class="col-md-12 p-0">Mật khẩu</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="text"
+                                       placeholder="Nhập mật khẩu.."
+                                       class="form-control p-0 border-0"
+                                       name="MatKhau" />
+                                <div class="alert alert-danger hidden" style="display: none;">
+                                    Không được để trống!
+                                </div>
+                                <div class="alert alert-danger hidden" style="display: none;">
+                                    Phải có ít nhất 10 ký tự!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <div class="col-sm-12">
+                                <button class="btn btn-success">Thêm nhân viên</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Areas/Admin/Assets/Client/js/jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/app-style-switcher.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/waves.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/custom.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/sidebarmenu.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            $(function () {
+                $(".file-upload-browse").on("click", function () {
+                    var file = $(this)
+                        .parent()
+                        .parent()
+                        .parent()
+                        .find(".file-upload-default");
+                    file.trigger("click");
+                });
+                $(".file-upload-default").on("change", function () {
+                    $(this)
+                        .parent()
+                        .find(".form-control")
+                        .val(
+                            $(this)
+                                .val()
+                                .replace(/C:\\fakepath\\/i, "")
+                        );
+                });
+            });
+        })(jQuery);
+    </script>
+
+    <!-->Xử lý tính hợp lệ khi cập nhật thông tin</!-->
+    <script>
+        $(document).ready(function () {
+            $('.btn-success').click(function (e) {
+                var isValid = true;
+                // Xử lý bỏ trống không nhập hay chọn gì
+                $('input[type="text"]').each(function () {
+                    if ($.trim($(this).val()) == '') {
+                        isValid = false;
+                        $(this).css({
+                            "border": "1px solid red",
+                            "background": "#FFCECE"
+                        });
+                        $(this).siblings('.alert').show();
+                    }
+                    else {
+                        $(this).css({
+                            "border": "",
+                            "background": ""
+                        });
+                        $(this).siblings('.alert').hide();
+                    }
+                });
+
+                // Xử lý SĐT không đủ 10 số và bỏ trống
+                var phoneValue = $('input[name="SDTNV"]').val();
+                if (phoneValue == '') {
+                    isValid = false;
+                    $('input[name="SDTNV"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[name="SDTNV"]').siblings('.alert').first().show();
+                    $('input[name="SDTNV"]').siblings('.alert').last().hide();
+                } else if (phoneValue.length < 10 || phoneValue.length > 10) {
+                    isValid = false;
+                    $('input[name="SDTNV"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[name="SDTNV"]').siblings('.alert').first().hide();
+                    $('input[name="SDTNV"]').siblings('.alert').last().show();
+                } else {
+                    $('input[name="SDTNV"]').css({
+                        "border": "",
+                        "background": ""
+                    });
+                    $('input[name="SDTNV"]').siblings('.alert').hide();
+                }
+
+                // Xử lý khi không chọn ngày sinh và ngày sinh không >= 18
+                var dobValue = $('input[type="date"]').val();
+                if (dobValue == '') {
+                    isValid = false;
+                    $('input[type="date"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[type="date"]').siblings('.alert').first().show();
+                    $('input[type="date"]').siblings('.alert').last().hide();
+                } else {
+                    var dob = new Date(dobValue);
+                    var today = new Date();
+                    var age = today.getFullYear() - dob.getFullYear();
+                    var m = today.getMonth() - dob.getMonth();
+                    if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+                        age--;
+                    }
+
+                    if (age < 18) {
+                        isValid = false;
+                        $('input[type="date"]').css({
+                            "border": "1px solid red",
+                            "background": "#FFCECE"
+                        });
+                        $('input[type="date"]').siblings('.alert').first().hide();
+                        $('input[type="date"]').siblings('.alert').last().show();
+                    } else {
+                        $('input[type="date"]').css({
+                            "border": "",
+                            "background": ""
+                        });
+                        $('input[type="date"]').siblings('.alert').hide();
+                    }
+                }
+
+                // Xử lý không chọn giới tính
+                if ($('select[name="GioiTinh"]').val() == 'Lựa chọn giới tính') {
+                    isValid = false;
+                    $('select[name="GioiTinh"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('select[name="GioiTinh"]').siblings('.alert').show();
+                } else {
+                    $('select[name="GioiTinh"]').css({
+                        "border": "",
+                        "background": ""
+                    });
+                    $('select[name="GioiTinh"]').siblings('.alert').hide();
+                }
+
+                // Xử lý mật khẩu không đủ 10 ký tự và bỏ trống
+                var passwordValue = $('input[name="MatKhau"]').val();
+                if (passwordValue == '') {
+                    isValid = false;
+                    $('input[name="MatKhau"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[name="MatKhau"]').siblings('.alert').first().show();
+                    $('input[name="MatKhau"]').siblings('.alert').last().hide();
+
+                } else if (passwordValue.length < 10) {
+                    isValid = false;
+                    $('input[name="MatKhau"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[name="MatKhau"]').siblings('.alert').first().hide();
+                    $('input[name="MatKhau"]').siblings('.alert').last().show();
+                    
+                } else {
+                    $('input[name="MatKhau"]').css({
+                        "border": "",
+                        "background": ""
+                    });
+                    $('input[name="MatKhau"]').siblings('.alert').hide();
+                    console.log(isValid);
+                }
+
+                if (isValid == false) {
+                    
+                    e.preventDefault();
+                } else {
+                    
+                    alert('Cập nhật thành công!, hãy kiểm tra lại các trường thông tin xem còn có lỗi nào không trước khi thoát');
+                }
+            });
+        });
+    </script>
+</body>

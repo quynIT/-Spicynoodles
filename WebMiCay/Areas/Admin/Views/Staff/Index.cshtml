@@ -1,0 +1,230 @@
+﻿@model List<WebMiCay.Areas.Admin.Models.StaffViewModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<head>
+    <link href="~/Areas/Admin/Assets/dist/css/style.min.css" rel="stylesheet" />
+    <link href="~/Areas/Admin/Assets/dist/css/icon.css" rel="stylesheet" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    .text-nowrap {
+        white-space: nowrap !important;
+    }
+    .d-inline-block {
+        display: inline-block !important;
+    }
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+    .btn-icon {
+        padding: 0;
+        width: calc(2.309375rem + 2px);
+        height: calc(2.309375rem + 2px);
+        display: inline-flex;
+        flex-shrink: 0;
+        justify-content: center;
+        align-items: center;
+    }
+        .btn-icon.btn-xl > span, .btn-group-xl > .btn-icon.btn > span {
+            font-size: 1.25rem;
+        }
+    .dt-buttons {
+        margin-right: 0;
+        margin-left: 930px;
+    }
+    button.dt-button {
+        background-color: #696cff;
+        padding: 7px 20px;
+        border-color: #696cff;
+        box-shadow: 0 0.125rem 0.25rem 0 rgba(105,108,255,.4);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+</style>
+<body>
+    <div class="page-wrapper">
+        <div class="container-fluid">
+            <!-- ============================================================== -->
+            <!-- Start Page Content -->
+            <!-- ============================================================== -->
+            <!-- basic table -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        
+                        <div class="card-body">
+                            <div class="dt-buttons">
+                                <button class="dt-button" style="margin-left:55px;">
+                                    <i class="bx bx-plus"></i>
+                                    <a href="@Url.Action("Addstaff", "Staff")"><span style="color:aliceblue">Thêm nhân viên mới</span></a>
+                                </button>
+                                </div>
+                                <!--Đây là cho phần hiển thị tìm kiếm và bộ lọc-->
+                                @using (Html.BeginForm("Index", "Staff", FormMethod.Get, new { @class = "form-inline" }))
+                                {
+                                    <div class="form-group">
+                                        <label>Tên nhân viên: </label>
+                                        <input type="text" class="form-control mx-sm-3"
+                                               name="searchString" placeholder="Nhập tên nhân viên">
+                                        <select name="sortOrder" class="form-control mx-sm-3">
+                                            <option value="name_asc">Sắp xếp tên từ A - Z</option>
+                                            <option value="name_desc">Sắp xếp tên từ Z - A</option>
+                                        </select>
+                                        <select name="genderFilter" class="form-control mx-sm-3">
+                                            <option value="">Tất cả</option>
+                                            <option value="Nam">Nam</option>
+                                            <option value="Nữ">Nữ</option>
+                                        </select>
+                                        <input type="submit" class="btn btn-danger" value="Tìm và sắp xếp">
+                                    </div>
+                                }
+                                <br />
+                                <div class="table-responsive">
+                                    <table id="zero_config" class="table table-striped table-bordered no-wrap">
+                                        <thead>
+                                            <tr>
+                                                <th>Mã tài khoản nhân viên</th>
+                                                <th>Mã nhân viên</th>
+                                                <th>Tên nhân viên</th>
+                                                <th>Giới tính</th>
+                                                <th>Ngày tạo</th>
+                                                <th>Vai Trò</th>
+                                                <th>Hành động</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <td>@item.MaTaiKhoanNV</td>
+                                                    <td>@item.MaNV</td>
+                                                    <td style="padding:11px 14px 11px 16px;width:55px">
+                                                        <a href="javascript:void(0)" class="font-weight-medium link">@item.TenNV</a>
+                                                    </td>
+                                                    <td>@item.GioiTinh</td>
+                                                    <td>@item.NgayTao</td>
+                                                    <td>@item.TenVaiTro</td>
+                                                    <td class="bx-tx">
+                                                        <div class="d-inline-block text-nowrap">
+                                                            <button class="btn btn-sm btn-icon dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                                                @*<a href="/Admin/Client/Profileclient"><i class="bx bx-show"></i></a>*@
+                                                                <a href="@Url.Action("Profilestaff", "Staff", new {maNV = item.MaNV, tenNV = item.TenNV, soDienThoai = item.SDTNV, ngaySinh = item.NgaySinh, diaChi = item.DiaChi, gioiTinh = item.GioiTinh, maTaiKhoanNV = item.MaTaiKhoanNV, tenTaiKhoanNV = item.TenTaiKhoanNV, matKhau = item.MatKhau, maVaiTro = item.MaVaiTro, tenVaiTro = item.TenVaiTro })">
+                                                                    <i class="bx bx-show"></i>
+                                                                </a>
+                                                            </button>
+                                                            <button class="btn btn-sm btn-icon">
+                                                                @*<a href="/Admin/Client/Updateclient"><i class="bx bx-edit"></i></a>*@
+                                                                <a href="@Url.Action("Updatestaff", "Staff", new {maNV = item.MaNV, tenNV = item.TenNV, soDienThoai = item.SDTNV, ngaySinh = item.NgaySinh, diaChi = item.DiaChi, gioiTinh = item.GioiTinh, maTaiKhoanNV = item.MaTaiKhoanNV, tenTaiKhoanNV = item.TenTaiKhoanNV, matKhau = item.MatKhau, maVaiTro = item.MaVaiTro, tenVaiTro = item.TenVaiTro })">
+                                                                    <i class="bx bx-edit"></i>
+                                                                </a>
+                                                            </button>
+                                                            <button class="btn btn-sm btn-icon delete-record">
+                                                                @*<a href="#"><i class="bx bx-trash"></i></a>*@
+                                                                <a href="@Url.Action("Deletestaff", "Staff", new {maNV = item.MaNV, tenNV = item.TenNV, soDienThoai = item.SDTNV, ngaySinh = item.NgaySinh, diaChi = item.DiaChi, gioiTinh = item.GioiTinh, maTaiKhoanNV = item.MaTaiKhoanNV, tenTaiKhoanNV = item.TenTaiKhoanNV, matKhau = item.MatKhau, maVaiTro = item.MaVaiTro, tenVaiTro = item.TenVaiTro })">
+                                                                    <i class="bx bx-trash"></i>
+                                                                </a>
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Areas/Admin/Assets/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <!-- apps -->
+    <!-- apps -->
+    <script src="~/Areas/Admin/Assets/dist/js/app-style-switcher.js"></script>
+    <script src="~/Areas/Admin/Assets/dist/js/feather.min.js"></script>
+    <script src="~/Areas/Admin/Assets/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/Areas/Admin/Assets/dist/js/custom.min.js"></script>
+    <style>
+        .badgee {
+            text-transform: uppercase;
+            line-height: 0.75;
+            margin-top: 15px;
+            margin-left: 18px;
+        }
+
+        .bg-label-warning {
+            background-color: #fff2d6 !important;
+            color: #ffab00 !important;
+        }
+
+        .badgee {
+            --bs-badge-padding-x: 0.593em;
+            --bs-badge-padding-y: 0.52em;
+            --bs-badge-font-size: 0.8125em;
+            --bs-badge-font-weight: 500;
+            --bs-badge-color: #fff;
+            --bs-badge-border-radius: 0.25rem;
+            display: inline-block;
+            padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+            font-size: var(--bs-badge-font-size);
+            font-weight: var(--bs-badge-font-weight);
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: var(--bs-badge-border-radius);
+        }
+
+        .bg-label-danger {
+            background-color: #ffe0db !important;
+            color: #ff3e1d !important;
+        }
+
+        .bg-label-success {
+            background-color: #e8fadf !important;
+            color: #71dd37 !important;
+        }
+        .bx-sx {
+            margin-right: 5px;
+            background-color: #fff2d6;
+            color: #ffab00;
+            padding: 5px;
+            border-radius: 25%;
+        }
+
+        .bx-ss {
+            margin-right: 5px;
+            background-color: #d7f5fc;
+            color: #03c3ec;
+            padding: 5px;
+            border-radius: 25%;
+        }
+
+        .bx-xs {
+            margin-right: 5px;
+            background-color: #e7e7ff;
+            color: #696cff;
+            padding: 5px;
+            border-radius: 25%;
+        }
+        a {
+            color: #7c8798 ;
+        }
+        .bx-tx {
+            width: 32px;
+        }
+    </style>
+</body>

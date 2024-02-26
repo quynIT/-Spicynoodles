@@ -1,0 +1,296 @@
+﻿@model WebMiCay.Models.ClientViewModel
+@{
+    ViewBag.Title = "Account";
+    Layout = "~/Views/Shared/_LayoutHomeClient.cshtml";
+}
+
+<div class="page_title_inner baseline">
+    <h1 style="font-family: reforma_2018blanca; ">
+        <span class="ppb_title_first">My</span>account
+    </h1>
+</div>
+<div class="row">
+    <div class="col-xl-3">
+        <ul class="cars">
+            <li><a href="/Myaccount/Index">Trang tài khoản</a></li>
+            <li><a href="/Myaccount/Donhang">Đơn hàng</a></li>
+            <li><a href="/Myaccount/Account" class="bxx">Tài khoản</a></li>
+            <li><a href="/Myaccount/Logout">Đăng xuất</a></li>
+        </ul>
+    </div>
+    <div class="col-xl-7">
+        <div class="card">
+            <div class="card-body">
+                <form class="form-horizontal form-material" method="post">
+                    <div class="form-group mb-4">
+                        <label class="col-md-12 p-0">Họ tên</label>
+                        <div class="col-md-12 border-bottom p-0">
+                            <input type="text"
+                                   class="form-control p-0 border-0"
+                                   name=TenKH />
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="example-email" class="col-md-12 p-0">Số điện thoại</label>
+                        <div class="col-md-12 border-bottom p-0">
+                            <input type="text"
+                                   class="form-control p-0 border-0"
+                                   name="SDT"
+                                   id="example-email" />
+                            <div class="alert alert-danger hidden" style="display: none;">
+                                Phải có 10 số!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="col-md-12 p-0">Ngày sinh:</label>
+                        <div class="col-md-12 border-bottom p-0">
+                            <input type="date"
+                                   class="form-control p-0 border-0"
+                                   name="NgaySinh"
+                                   asp-for="NgaySinh" asp-format="{0:dd/MM/yyyy}" />
+                            <div class="alert alert-danger hidden" style="display: none;">
+                                Phải lớn hơn hoặc bằng 18 tuổi!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="col-md-12 p-0">Địa chỉ:</label>
+                        <div class="col-md-12 border-bottom p-0">
+                            <input type="text"
+                                   class="form-control p-0 border-0"
+                                   name="DiaChi" />
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="col-sm-12">Giới tính</label>
+                        <div class="col-sm-12 border-bottom">
+                            <select class="form-select shadow-none p-0 border-0 form-control-line" name="GioiTinh">
+                                <option>Lựa chọn giới tính</option>
+                                <option>Nam</option>
+                                <option>Nữ</option>
+                            </select>
+                            <div class="alert alert-danger hidden" style="display: none;">
+                                Phải chọn giới tính!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="col-md-12 p-0">Mật khẩu</label>
+                        <div class="col-md-12 border-bottom p-0">
+                            <input type="text"
+                                   placeholder="Nhập mật khẩu muốn đổi.."
+                                   class="form-control p-0 border-0"
+                                   name="MatKhauKhach" />
+                            <div class="alert alert-danger hidden" style="display: none;">
+                                Phải có ít nhất 10 ký tự!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <button class="btn mt-4 btn-success">Lưu thay đổi</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="~/Areas/Admin/Assets/Client/js/jquery.min.js"></script>
+<script src="~/Areas/Admin/Assets/Client/js/bootstrap.bundle.min.js"></script>
+<script src="~/Areas/Admin/Assets/Client/js/app-style-switcher.js"></script>
+<script src="~/Areas/Admin/Assets/Client/js/waves.js"></script>
+<script src="~/Areas/Admin/Assets/Client/js/custom.js"></script>
+<script src="~/Areas/Admin/Assets/Client/js/sidebarmenu.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.btn-success').click(function (e) {
+            var isValid = true;
+            // Xử lý SĐT không đủ 10 số
+            var phoneValue = $('input[name="SDT"]').val();
+            if (phoneValue.length != 0 && phoneValue.length != 10) {
+                isValid = false;
+                $('input[name="SDT"]').css({
+                    "border": "1px solid red",
+                    "background": "#FFCECE"
+                });
+                $('input[name="SDT"]').siblings('.alert').show();
+            } else {
+                $('input[name="SDT"]').css({
+                    "border": "",
+                    "background": ""
+                });
+                $('input[name="SDT"]').siblings('.alert').hide();
+            }
+
+            // Xử lý ngày sinh không >= 18
+            var dobValue = $('input[type="date"]').val();
+            if (dobValue != '') {
+                var dob = new Date(dobValue);
+                var today = new Date();
+                var age = today.getFullYear() - dob.getFullYear();
+                var m = today.getMonth() - dob.getMonth();
+                if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+                    age--;
+                }
+
+                if (age < 18) {
+                    isValid = false;
+                    $('input[type="date"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[type="date"]').siblings('.alert').show();
+                } else {
+                    $('input[type="date"]').css({
+                        "border": "",
+                        "background": ""
+                    });
+                    $('input[type="date"]').siblings('.alert').hide();
+                }
+            }
+
+            // Xử lý mật khẩu không đủ 10 ký tự
+            var passwordValue = $('input[name="MatKhauKhach"]').val();
+            if (passwordValue.length != 0 && passwordValue.length < 10) {
+                isValid = false;
+                $('input[name="MatKhauKhach"]').css({
+                    "border": "1px solid red",
+                    "background": "#FFCECE"
+                });
+                $('input[name="MatKhauKhach"]').siblings('.alert').show();
+            } else {
+                $('input[name="MatKhauKhach"]').css({
+                    "border": "",
+                    "background": ""
+                });
+                $('input[name="MatKhauKhach"]').siblings('.alert').hide();
+            }
+
+            // Xử lý không chọn giới tính
+            if ($('select[name="GioiTinh"]').val() == 'Lựa chọn giới tính') {
+                isValid = false;
+                $('select[name="GioiTinh"]').css({
+                    "border": "1px solid red",
+                    "background": "#FFCECE"
+                });
+                $('select[name="GioiTinh"]').siblings('.alert').show();
+            } else {
+                $('select[name="GioiTinh"]').css({
+                    "border": "",
+                    "background": ""
+                });
+                $('select[name="GioiTinh"]').siblings('.alert').hide();
+            }
+
+            if (isValid == false) {
+                e.preventDefault();
+            } else {
+                alert('Đang tiến hành cập nhật!, hãy kiểm tra lại các trường thông tin xem còn có lỗi nào không trước khi thoát');
+                console.log("hah");
+            }
+        });
+    });
+</script>
+
+<style>
+    .button {
+        max-width: 150px;
+        font-family: reforma_2018blanca;
+        font-weight: 700;
+        padding: 5px 10px 5px 10px;
+        background-color: #38bdf2;
+        border: 0;
+        border-radius: 4px 4px 4px 4px;
+        margin-left: 330px;
+    }
+
+    .row {
+        margin: 30px;
+    }
+
+    .ppb_title_first {
+        font-family: reforma_2018blanca;
+        line-height: 50px;
+        color: #ca9c5e;
+    }
+
+    .ppb_title_first {
+        display: block;
+        font-style: italic;
+        font-size: 70px;
+        text-transform: none;
+        top: 0;
+        position: relative;
+        letter-spacing: 0 !important;
+        font-weight: 400;
+    }
+
+    .h1 {
+        font-family: inherit !important;
+    }
+
+    .baseline {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    input {
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    body {
+        font-family: reforma_2018blanca;
+    }
+
+    .card {
+        border-radius: 4px 4px 4px 4px;
+        border: 0px solid #000000;
+    }
+
+    .text-muted {
+        color: #687178 !important;
+        font-weight: 700;
+        font-size: 1em;
+        margin-left: 5px;
+    }
+
+    .form-group {
+        margin-top: 15px;
+    }
+
+    .cars {
+        margin-top: 70px;
+    }
+
+    a {
+        font-size: 20px;
+        color: #ca9c5e;
+    }
+
+    li a:hover {
+        color: #000;
+    }
+
+    .bxx {
+        background-color: #8fe3b3;
+        padding-right: 40px;
+        padding-left: 5px;
+        border-radius: 3px 3px 3px 3px;
+    }
+
+    p {
+        font-size: 20px;
+        color: #000;
+    }
+</style>

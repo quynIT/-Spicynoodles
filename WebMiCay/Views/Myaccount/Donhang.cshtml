@@ -1,0 +1,212 @@
+﻿@model List<HoaDon>
+@{
+    ViewBag.Title = "Donhang";
+    Layout = "~/Views/Shared/_LayoutHomeClient.cshtml";
+}
+<div class="page_title_inner baseline">
+    <h1 style="font-family: reforma_2018blanca; ">
+        <span class="ppb_title_first">My</span>account
+    </h1>
+</div>
+<div class="row">
+    <div class="col-xl-3">
+        <ul class="cars">
+            <li><a href="/Myaccount/Index">Trang tài khoản</a></li>
+            <li><a href="/Myaccount/Donhang" class="bxx">Đơn hàng</a></li>
+            <li><a href="/Myaccount/Account">Tài khoản</a></li>
+            <li><a href="/Myaccount/Logout">Đăng xuất</a></li>
+        </ul>
+    </div>
+    <div class="col-xl-8">
+        <div class="row">
+            <div class="col-xl-6">
+                @foreach(var order in Model)
+                {
+                    <div class="col-lg-4" style="margin-left:50px;margin-top:30px;">
+                        <h5 class="section-title position-relative text-uppercase mb-3" style="margin-left:130px"><span class="bg-secondary pr-3">Hóa đơn đặt về</span></h5>
+                        <div class="bg-light p-30 mb-5">
+                            <div class="border-bottom pb-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h6>Mã hóa đơn:</h6>
+                                    <h6 style="margin-right:40px;">@order.MaHD</h6>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-medium">Ngày đặt: @order.NgayDat</h6>
+                                </div>
+                                <br />
+                                <div class="row" style="margin:0;">
+
+                                    <div class="b-flex justify-content-between">
+                                        <div class="col-xl-4">
+                                            <h6 class="d-flex font-weight-medium">Tên món ăn</h6>
+
+                                            @foreach (var detail in order.CTHD)
+                                            {
+                                                <h6 class="font-weight-medium">@detail.Mon.TenMon</h6>
+                                            }
+
+                                        </div>
+
+                                        <div class="col-xl-4" style="margin-left:30px;">
+                                            <h6 class="d-flex font-weight-medium">Số lượng</h6>
+
+                                            @foreach (var detail in order.CTHD)
+                                            {
+                                                <h6 class="font-weight-medium">@detail.SoLuongMon</h6>
+                                            }
+
+                                        </div>
+
+                                        <div class="col-xl-4" style="margin-left:30px;">
+                                            <h6 class="d-flex font-weight-medium">Giá</h6>
+                                            @foreach (var detail in order.CTHD)
+                                            {
+                                                var itemTotal = Convert.ToDecimal(detail.Mon.GiaCa * detail.SoLuongMon);
+                                                // N2 để lấy 2 số sau dấu phẩy
+                                                <h6 class="font-weight-medium">@itemTotal.ToString("N2")</h6>
+                                            }
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pt-2">
+                                <div class="d-flex justify-content-between mt-2">
+                                    <h5>Tình trạng: </h5>
+                                    <h5>@order.TinhTrang</h5>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <h5>Tổng cộng: </h5>
+                                    <h5>@order.TongGia</h5>
+                                </div>
+                                <!-- Thêm nút Hủy đơn -->
+                                <button class="btn btn-danger" onclick="confirmDelete('@order.MaHD')">Hủy đơn</button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .row {
+        margin: 30px;
+    }
+
+    .ppb_title_first {
+        font-family: reforma_2018blanca;
+        line-height: 50px;
+        color: #ca9c5e;
+    }
+
+    .ppb_title_first {
+        display: block;
+        font-style: italic;
+        font-size: 70px;
+        text-transform: none;
+        top: 0;
+        position: relative;
+        letter-spacing: 0 !important;
+        font-weight: 400;
+    }
+
+    .h1 {
+        font-family: inherit !important;
+    }
+
+    .baseline {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    input {
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    body {
+        font-family: reforma_2018blanca;
+    }
+
+    .card {
+        border-radius: 4px 4px 4px 4px;
+        border: 0px solid #000000;
+    }
+
+    .text-muted {
+        color: #687178 !important;
+        font-weight: 700;
+        font-size: 1em;
+        margin-left: 5px;
+    }
+
+    .form-group {
+        margin-top: 15px;
+    }
+
+    .cars {
+        margin-top: 70px;
+    }
+
+    a {
+        font-size: 20px;
+        color: #ca9c5e;
+    }
+
+    li a:hover {
+        color: #000;
+    }
+
+    .bxx {
+        background-color: #8fe3b3;
+        padding-right: 40px;
+        padding-left: 5px;
+        border-radius: 3px 3px 3px 3px;
+    }
+
+    .border-bottom.pb-2 {
+        width: 400px;
+    }
+
+    .b-flex {
+        display: flex !important;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    h5 {
+        width: 200px;
+    }
+
+    .pt-2 {
+        width: 200px;
+    }
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    function confirmDelete(orderId) {
+        var r = confirm("Bạn muốn hủy đơn không?");
+        if (r == true) {
+            // Gọi hàm xóa hóa đơn
+            deleteOrder(orderId);
+        }
+    }
+
+    function deleteOrder(orderId) {
+        $.ajax({
+            url: '/Myaccount/Deletebill1',
+            type: 'POST',
+            data: { maHD: orderId },
+            success: function (result) {
+                alert(result.message);
+                if (result.success) {
+                    // Tải lại trang để cập nhật thông tin
+                    window.location.href = window.location.href;
+                }
+            }
+        });
+    }
+</script>

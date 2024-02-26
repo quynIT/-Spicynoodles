@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="42a2f4515cb947239dfd785a263c0ad5" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.CTHD" Width="1.5" PointX="8.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.HoaDon" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.KhachHang" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.LichDat" Width="1.5" PointX="6" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.LoaiMon" Width="1.5" PointX="3.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.Mon" Width="1.5" PointX="6" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.NguyenLieu" Width="1.5" PointX="8.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.NhaCungCap" Width="1.5" PointX="5.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.NhanVien" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.PhanHoi" Width="1.5" PointX="3" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.TaiKhoanKhach" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.TaiKhoanNhanVien" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.VaiTro" Width="1.5" PointX="0.75" PointY="19.375" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_CTHD_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_CTHD_Mon" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_HoaDon_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_LichDat_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_PhanHoi_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_TaiKhoanKhach_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_LichDat_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_Mon_LoaiMon" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_TaiKhoanNhanVien_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyQuanMiCayModel.FK_TaiKhoanNhanVien_VaiTro" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.sysdiagrams" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="QuanLyQuanMiCayModel.TongDoanhThuTheoThang" Width="1.5" PointX="10.375" PointY="5.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

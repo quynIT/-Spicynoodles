@@ -1,0 +1,87 @@
+﻿@model WebMiCay.Areas.Admin.Models.BillViewModel
+@{
+    ViewBag.Title = "ChitietHD";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutStaff.cshtml";
+}
+<link href="~/Areas/Admin/Assets/Client/css/material-dashboard.css" rel="stylesheet" />
+<div class="page-wrapper">
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Mã Hóa Đơn: @Model.MaHD</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 ps-0 pt-0 text-sm">
+                                <strong class="text-dark">Ngày đặt về:</strong> &nbsp;
+                                @Model.NgayDat
+                            </li>
+                            <li class="list-group-item border-0 ps-0 text-sm">
+                                <strong class="text-dark">Mã khách hàng:</strong> &nbsp;
+                                @Model.MaKH
+                            </li>
+                            <li class="list-group-item border-0 ps-0 text-sm">
+                                <strong class="text-dark">Tên khách hàng:</strong> &nbsp;
+                                @Model.TenKH
+                            </li>
+                            <li class="list-group-item border-0 ps-0 text-sm">
+                                <strong class="text-dark">Số điện thoại:</strong> &nbsp;
+                                @Model.SDT
+                            </li>
+                        </ul>
+
+                        <i class="mr-1 font-18 mdi mdi-numeric-1-box-multiple-outline"></i>
+
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+
+                                        <th scope="col">Tên Món</th>
+                                        <th scope="col">Số Lượng</th>
+                                        <th scope="col">Giá món</th>
+                                        <th scope="col">Giá tổng cho từng món</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var chiTietMon in Model.ChiTietHoaDon)
+                                    {
+                                        <tr>
+                                            <td>@chiTietMon.TenMon</td>
+                                            <td>@chiTietMon.SoLuongMon</td>
+                                            <td>@chiTietMon.GiaMon</td>
+                                            <td>@(chiTietMon.GiaMon * chiTietMon.SoLuongMon)</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <i class="mr-1 font-18 mdi mdi-numeric-1-box-multiple-outline"></i>
+                        <ul class="bxx">
+                            <li class="list-group-item border-0 ps-0 pt-0 text-sm" style="font-weight: bold; color: #2a00ff">
+                                <strong class="text-dark">Tổng hóa đơn:</strong> &nbsp;
+                                @Model.TongGia
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .table thead th{
+        padding:8px;
+        font-weight:bold;
+    }
+    .list-group{
+        margin-left:20px;
+    }
+    .bxx{
+        margin-left:780px;
+    }
+</style>

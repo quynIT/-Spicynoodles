@@ -1,0 +1,1163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebMiCay</RootNamespace>
+    <AssemblyName>WebMiCay</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44305</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.1\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.9\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.9\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\BillController.cs" />
+    <Compile Include="Areas\Admin\Controllers\BookADController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ClientController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DishController.cs" />
+    <Compile Include="Areas\Admin\Models\DoanhThuViewModel.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeADController.cs" />
+    <Compile Include="Areas\Admin\Controllers\IngredientController.cs" />
+    <Compile Include="Areas\Admin\Controllers\NhanvienController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProviderController.cs" />
+    <Compile Include="Areas\Admin\Controllers\StaffController.cs" />
+    <Compile Include="Areas\Admin\Models\BillViewModel.cs" />
+    <Compile Include="Areas\Admin\Models\ClientViewModel.cs" />
+    <Compile Include="Areas\Admin\Models\BookingViewModel.cs" />
+    <Compile Include="Areas\Admin\Models\DishViewModel.cs" />
+    <Compile Include="Areas\Admin\Models\FeedbackViewModel.cs" />
+    <Compile Include="Areas\Admin\Models\IngredientViewModel.cs" />
+    <Compile Include="Areas\Admin\Models\ProviderViewModel.cs" />
+    <Compile Include="Areas\Admin\Models\StaffViewModel.cs" />
+    <Compile Include="Areas\Staff\StaffAreaRegistration.cs" />
+    <Compile Include="Controllers\BookController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\FeedbackController.cs" />
+    <Compile Include="Controllers\HomeClientController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MyaccountController.cs" />
+    <Compile Include="Controllers\Order2Controller.cs" />
+    <Compile Include="Controllers\OrderController.cs" />
+    <Compile Include="Controllers\QlbillController.cs" />
+    <Compile Include="CTHD.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDon.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhachHang.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LichDat.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiMon.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CartItem.cs" />
+    <Compile Include="Models\ClientViewModel.cs" />
+    <Compile Include="Models\mon_loaimon.cs" />
+    <Compile Include="Mon.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NguyenLieu.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhaCungCap.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhanHoi.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLyQuanMiCay.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyQuanMiCay.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyQuanMiCay.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyQuanMiCay.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyQuanMiCay.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoanKhach.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoanNhanVien.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TongDoanhThuTheoThang.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VaiTro.cs">
+      <DependentUpon>QuanLyQuanMiCay.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\c3\c3.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\c3\c3.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\c3\d3.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net-bs4\css\dataTables.bootstrap4.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net-bs4\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net-bs4\js\dataTables.bootstrap4.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net-bs4\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net\js\jquery.dataTables.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net\js\jquery.dataTables.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net\License.txt" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\gdp-data.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-2.0.2.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-2.0.2.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-asia-mill.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-au-mill.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-ca-lcc.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-de-mill.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-europe-mill-en.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-in-mill.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-uk-mill-en.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-us-aea-en.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-us-il-chicago-mill-en.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\jvector\jvectormap.custom.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\knob\jquery.knob.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\knob\jquery.knob.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\prism\prism-old.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\prism\prism.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\prism\prism.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\sparkline\sparkline.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\css\boxicons.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\css\core.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\css\demo.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\css\jquery-ui.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\css\lobilist.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\css\lobilist.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\css\theme-default.css" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\js\config.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\js\demo.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\js\helpers.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\js\jquery-ui.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\js\jquery.ui.touch-punch-improved.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\js\lobibox.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\js\lobilist.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\js\lobilist.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\js\task-init.js" />
+    <Content Include="Areas\Admin\Assets\assets\images\alert\alert.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\alert\alert2.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\alert\alert3.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\alert\alert4.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\alert\alert5.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\alert\alert6.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\alert\alert7.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\alert\model.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\alert\model2.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\alert\model3.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\active-bg.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\active-bg.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\beauty.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\error-bg.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\img5.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\img5.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\login-register.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\megamenubg.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\nyan-cat.gif" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\profile-bg.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\sidebarbg.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\socialbg.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\user-bg.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\user-info.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\weatherbg.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\1.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\3.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\5.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\auth-bg.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\auth-bg2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\d2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\icon.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\img1.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\img2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\img3.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\img4.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\img5.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\img6.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\browser\chrome-logo.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\browser\edge-logo.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\browser\firefox-logo.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\browser\internet-logo.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\browser\netscape-logo.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\browser\opera-logo.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\browser\photoshop.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\browser\safari-logo.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\browser\sketch.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\custom-select.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\docs\gulp.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\favicon.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\gallery\chair.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\gallery\chair2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\gallery\chair3.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\gallery\chair4.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\img1.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\img2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\img3.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\banne-img.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\banner-bg.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\brand-logos.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\db.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\f1.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\f2.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\f3.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\favicon.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\icon-sprite.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\img2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\img3.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\logo.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\logos.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\right-img.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\section-bg.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\landingpage\section-img.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\logo-icon.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\logo-light-text.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\logo-text.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\chair.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\chair2.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\chair3.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\chair4.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\ipad.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\iphone.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\iwatch.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\p1.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\p2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\p3.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\product\p4.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\rating\cancel-off.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\rating\cancel-on.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\rating\heart.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\rating\like.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\rating\star-half-mono.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\rating\star-half.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\rating\star-off.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\rating\star-on.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\tooltip\Euclid.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\tooltip\shape1.svg" />
+    <Content Include="Areas\Admin\Assets\assets\images\tooltip\shape2.svg" />
+    <Content Include="Areas\Admin\Assets\assets\images\tooltip\shape3.svg" />
+    <Content Include="Areas\Admin\Assets\assets\images\tooltip\tooltip1.svg" />
+    <Content Include="Areas\Admin\Assets\assets\images\tooltip\tooltip2.svg" />
+    <Content Include="Areas\Admin\Assets\assets\images\tooltip\tooltip3.svg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\1-old.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\1.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\1.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\2.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\3.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\3.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\4.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\5.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\6.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\7.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\8.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\agent.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\agent2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\d1.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\d2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\d3.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\d4.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\d5.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\profile-pic-2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\profile-pic.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\profile.png" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\widget-table-pic1.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\widget-table-pic2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\widget-table-pic3.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\users\widget-table-pic4.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\widgets\1.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\widgets\2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\widgets\3.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\widgets\widget-carousel-2.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\images\widgets\widget-carousel.jpg" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\chart.js\dist\Chart.bundle.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\chart.js\dist\Chart.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\chart.js\dist\Chart.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\chartist-plugin-tooltips\dist\chartist-plugin-tooltip.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\chartist-plugin-tooltips\dist\chartist-plugin-tooltip.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\chartist\dist\chartist.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\datatables.net-bs4\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\datatables.net-bs4\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\fullcalendar.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\fullcalendar.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\fullcalendar.print.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\gcal.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale-all.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\af.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ar-dz.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ar-kw.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ar-ly.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ar-ma.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ar-sa.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ar-tn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ar.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\be.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\bg.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\bs.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ca.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\cs.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\da.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\de-at.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\de-ch.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\de.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\el.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\en-au.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\en-ca.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\en-gb.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\en-ie.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\en-nz.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\es-do.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\es-us.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\es.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\et.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\eu.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\fa.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\fi.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\fr-ca.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\fr-ch.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\fr.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\gl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\he.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\hi.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\hr.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\hu.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\id.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\is.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\it.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ja.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ka.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\kk.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ko.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\lb.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\lt.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\lv.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\mk.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ms-my.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ms.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\nb.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\nl-be.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\nl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\nn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\pl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\pt-br.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\pt.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ro.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\ru.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\sk.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\sl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\sq.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\sr-cyrl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\sr.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\sv.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\th.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\tr.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\uk.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\vi.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\zh-cn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\zh-hk.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\fullcalendar\dist\locale\zh-tw.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\jquery\dist\core.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\jquery\dist\jquery.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\jquery\dist\jquery.slim.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\ender.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\af.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ar-dz.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ar-kw.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ar-ly.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ar-ma.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ar-sa.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ar-tn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ar.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\az.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\be.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\bg.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\bm.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\bn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\bo.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\br.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\bs.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ca.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\cs.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\cv.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\cy.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\da.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\de-at.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\de-ch.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\de.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\dv.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\el.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\en-au.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\en-ca.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\en-gb.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\en-ie.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\en-il.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\en-nz.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\en-SG.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\eo.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\es-do.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\es-us.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\es.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\et.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\eu.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\fa.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\fi.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\fo.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\fr-ca.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\fr-ch.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\fr.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\fy.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ga.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\gd.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\gl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\gom-latn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\gu.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\he.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\hi.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\hr.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\hu.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\hy-am.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\id.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\is.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\it-ch.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\it.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ja.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\jv.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ka.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\kk.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\km.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\kn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ko.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ku.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ky.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\lb.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\lo.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\lt.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\lv.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\me.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\mi.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\mk.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ml.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\mn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\mr.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ms-my.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ms.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\mt.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\my.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\nb.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ne.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\nl-be.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\nl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\nn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\pa-in.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\pl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\pt-br.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\pt.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ro.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ru.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\sd.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\se.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\si.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\sk.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\sl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\sq.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\sr-cyrl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\sr.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ss.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\sv.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\sw.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ta.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\te.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\tet.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\tg.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\th.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\tl-ph.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\tlh.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\tr.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\tzl.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\tzm-latn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\tzm.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ug-cn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\uk.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\ur.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\uz-latn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\uz.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\vi.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\x-pseudo.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\yo.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\zh-cn.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\zh-hk.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\locale\zh-tw.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\min\locales.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\min\moment-with-locales.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\min\moment.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\moment.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\moment\package.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\morris.js\morris.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\morris.js\morris.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\perfect-scrollbar\dist\css\perfect-scrollbar.min.css" />
+    <Content Include="Areas\Admin\Assets\assets\libs\perfect-scrollbar\dist\js\perfect-scrollbar.jquery.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\perfect-scrollbar\dist\js\perfect-scrollbar.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\perfect-scrollbar\dist\perfect-scrollbar.common.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\perfect-scrollbar\dist\perfect-scrollbar.esm.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\perfect-scrollbar\dist\perfect-scrollbar.jquery.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\perfect-scrollbar\dist\perfect-scrollbar.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\popper.js\dist\esm\popper-utils.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\popper.js\dist\esm\popper.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\popper.js\dist\popper-utils.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\popper.js\dist\popper.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\popper.js\dist\umd\popper-utils.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\popper.js\dist\umd\popper.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\raphael\dev\banner.txt" />
+    <Content Include="Areas\Admin\Assets\assets\libs\raphael\dev\raphael.amd.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\raphael\dev\raphael.core.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\raphael\dev\raphael.svg.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\raphael\dev\raphael.vml.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\raphael\dev\raphaelTest.html" />
+    <Content Include="Areas\Admin\Assets\assets\libs\raphael\license.txt" />
+    <Content Include="Areas\Admin\Assets\assets\libs\raphael\raphael.min.js" />
+    <Content Include="Areas\Admin\Assets\assets\libs\raphael\raphael.no-deps.min.js" />
+    <Content Include="Areas\Admin\Assets\Client\css\material-dashboard.css" />
+    <Content Include="Areas\Admin\Assets\Client\css\nucleo-icons.css" />
+    <Content Include="Areas\Admin\Assets\Client\css\nucleo-svg.css" />
+    <Content Include="Areas\Admin\Assets\Client\css\style.min.css" />
+    <Content Include="Areas\Admin\Assets\Client\img\cc-primary.png" />
+    <Content Include="Areas\Admin\Assets\Client\img\chart-success.png" />
+    <Content Include="Areas\Admin\Assets\Client\img\man-with-laptop-light.png" />
+    <Content Include="Areas\Admin\Assets\Client\img\paypal.png" />
+    <Content Include="Areas\Admin\Assets\Client\img\wallet-info.png" />
+    <Content Include="Areas\Admin\Assets\Client\js\apexcharts.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\app-style-switcher.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\bootstrap.bundle.min.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\bootstrap.min.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\custom.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\dashboards-analytics.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\jquery.min.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\main.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\material-dashboard.min.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\perfect-scrollbar.min.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\popper.min.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\sidebarmenu.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\smooth-scrollbar.min.js" />
+    <Content Include="Areas\Admin\Assets\Client\js\waves.js" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Bold.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Heavy.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Medium.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Regular.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Book.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Medium.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Regular.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\core.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\css\fa-brands.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\css\fa-brands.min.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\css\fa-regular.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\css\fa-regular.min.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\css\fa-solid.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\css\fa-solid.min.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\css\fontawesome-all.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\css\fontawesome-all.min.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\css\fontawesome.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\css\fontawesome.min.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-brands-400.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-regular-400.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-solid-900.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\simple-line-icons\css\simple-line-icons.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\simple-line-icons\fonts\Simple-Line-Icons.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\themify-icons\fonts\themify.svg" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\themify-icons\ie7\ie7.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\themify-icons\ie7\ie7.js" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\themify-icons\themify-icons.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\icon.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\style.css" />
+    <Content Include="Areas\Admin\Assets\dist\css\style.min.css" />
+    <Content Include="Areas\Admin\Assets\dist\js\app-style-switcher.js" />
+    <Content Include="Areas\Admin\Assets\dist\js\app-style-switcher.min.js" />
+    <Content Include="Areas\Admin\Assets\dist\js\custom.js" />
+    <Content Include="Areas\Admin\Assets\dist\js\custom.min.js" />
+    <Content Include="Areas\Admin\Assets\dist\js\dashboard1.js" />
+    <Content Include="Areas\Admin\Assets\dist\js\dashboard1.min.js" />
+    <Content Include="Areas\Admin\Assets\dist\js\feather.min.js" />
+    <Content Include="Areas\Admin\Assets\dist\js\sidebarmenu.js" />
+    <Content Include="Areas\Admin\Assets\dist\js\sidebarmenu.min.js" />
+    <Content Include="Client\Book\css\bootstrap.min.css" />
+    <Content Include="Client\Book\css\style.css" />
+    <Content Include="Client\Book\js\aos.js" />
+    <Content Include="Client\Book\js\bootstrap.bundle.min.js" />
+    <Content Include="Client\Book\js\glightbox.min.js" />
+    <Content Include="Client\Book\js\isotope.pkgd.min.js" />
+    <Content Include="Client\Book\js\main.js" />
+    <Content Include="Client\Book\js\swiper-bundle.min.js" />
+    <Content Include="Client\Book\js\validate.js" />
+    <Content Include="Client\Cart\css\style.css" />
+    <Content Include="Client\Cart\img\product-10.jpg" />
+    <Content Include="Client\Cart\img\product-11 .jpg" />
+    <Content Include="Client\Cart\img\product-6.jpg" />
+    <Content Include="Client\Cart\img\product-7.jpg" />
+    <Content Include="Client\Cart\img\product-8.jpg" />
+    <Content Include="Client\Cart\img\product-9.jpg" />
+    <Content Include="Client\Cart\js\contact.js" />
+    <Content Include="Client\Cart\js\easing.min.js" />
+    <Content Include="Client\Cart\js\jqBootstrapValidation.min.js" />
+    <Content Include="Client\Cart\js\main.js" />
+    <Content Include="Client\Cart\js\owl.carousel.min.js" />
+    <Content Include="Client\css\bootstrap.min.css" />
+    <Content Include="Client\css\owl.carousel.min.css" />
+    <Content Include="Client\css\style.css" />
+    <Content Include="Client\css\stylelogin.css" />
+    <Content Include="Client\img\about.jpg" />
+    <Content Include="Client\img\bg.jpg" />
+    <Content Include="Client\img\cake-1.jpg" />
+    <Content Include="Client\img\cake-2.jpg" />
+    <Content Include="Client\img\cake-3.jpg" />
+    <Content Include="Client\img\hero.jpg" />
+    <Content Include="Client\img\logo.png" />
+    <Content Include="Client\img\offer.jpg" />
+    <Content Include="Client\img\service.jpg" />
+    <Content Include="Client\img\team-1.jpg" />
+    <Content Include="Client\img\team-2.jpg" />
+    <Content Include="Client\img\team-3.jpg" />
+    <Content Include="Client\img\testimonial-1.jpg" />
+    <Content Include="Client\img\testimonial-2.jpg" />
+    <Content Include="Client\img\testimonial-3.jpg" />
+    <Content Include="Client\img\testimonial-4.jpg" />
+    <Content Include="Client\js\signup.js" />
+    <Content Include="Client\js\main.js" />
+    <Content Include="Client\js\loginn.js" />
+    <Content Include="Client\lib\counterup\counterup.min.js" />
+    <Content Include="Client\lib\easing\easing.js" />
+    <Content Include="Client\lib\easing\easing.min.js" />
+    <Content Include="Client\lib\owlcarousel\owl.carousel.js" />
+    <Content Include="Client\lib\owlcarousel\owl.carousel.min.js" />
+    <Content Include="Client\lib\waypoints\waypoints.min.js" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\food_img\lau-bo-kim-chi.jpg" />
+    <Content Include="Content\food_img\lau-tokbokki.jpg" />
+    <Content Include="Content\food_img\Mi-dui-ga-kim-chi.jpg" />
+    <Content Include="Content\food_img\mi-kim-chi-bo.jpg" />
+    <Content Include="Content\food_img\mi-kim-chi-hai-san.jpg" />
+    <Content Include="Content\food_img\nam.jpg" />
+    <Content Include="Content\food_img\thit-bo.jpg" />
+    <Content Include="Content\food_img\tobokki.jpg" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Library\css\bootstrap.min.css" />
+    <Content Include="Library\css\elegant-icons.css" />
+    <Content Include="Library\css\font-awesome.min.css" />
+    <Content Include="Library\css\jquery-ui.min.css" />
+    <Content Include="Library\css\nice-select.css" />
+    <Content Include="Library\css\owl.carousel.min.css" />
+    <Content Include="Library\css\slicknav.min.css" />
+    <Content Include="Library\css\style.css" />
+    <Content Include="Library\img\banner\banner-3.jpg" />
+    <Content Include="Library\img\banner\banner-4.jpg" />
+    <Content Include="Library\img\blog\blog-1.jpg" />
+    <Content Include="Library\img\blog\blog-2.jpg" />
+    <Content Include="Library\img\blog\blog-3.jpg" />
+    <Content Include="Library\img\blog\blog-4.jpg" />
+    <Content Include="Library\img\blog\blog-5.jpg" />
+    <Content Include="Library\img\blog\blog-6.jpg" />
+    <Content Include="Library\img\blog\details\details-author.jpg" />
+    <Content Include="Library\img\blog\details\details-hero.jpg" />
+    <Content Include="Library\img\blog\details\details-pic.jpg" />
+    <Content Include="Library\img\blog\sidebar\sr-1.jpg" />
+    <Content Include="Library\img\blog\sidebar\sr-2.jpg" />
+    <Content Include="Library\img\blog\sidebar\sr-3.jpg" />
+    <Content Include="Library\img\breadcrumb.jpg" />
+    <Content Include="Library\img\cart\cart-1.jpg" />
+    <Content Include="Library\img\cart\cart-2.jpg" />
+    <Content Include="Library\img\cart\cart-3.jpg" />
+    <Content Include="Library\img\categories\cat-1.jpg" />
+    <Content Include="Library\img\categories\cat-2.jpg" />
+    <Content Include="Library\img\categories\cat-3.jpg" />
+    <Content Include="Library\img\categories\cat-4.jpg" />
+    <Content Include="Library\img\categories\cat-5.jpg" />
+    <Content Include="Library\img\featured\feature-1.jpg" />
+    <Content Include="Library\img\featured\feature-2.jpg" />
+    <Content Include="Library\img\featured\feature-3.jpg" />
+    <Content Include="Library\img\featured\feature-4.jpg" />
+    <Content Include="Library\img\featured\feature-5.jpg" />
+    <Content Include="Library\img\featured\feature-6.jpg" />
+    <Content Include="Library\img\featured\feature-7.jpg" />
+    <Content Include="Library\img\featured\feature-8.jpg" />
+    <Content Include="Library\img\hero\banner.jpg" />
+    <Content Include="Library\img\language.png" />
+    <Content Include="Library\img\latest-product\lp-1.jpg" />
+    <Content Include="Library\img\latest-product\lp-2.jpg" />
+    <Content Include="Library\img\latest-product\lp-3.jpg" />
+    <Content Include="Library\img\logo.png" />
+    <Content Include="Library\img\payment-item.png" />
+    <Content Include="Library\img\product\details\product-details-1.jpg" />
+    <Content Include="Library\img\product\details\product-details-2.jpg" />
+    <Content Include="Library\img\product\details\product-details-3.jpg" />
+    <Content Include="Library\img\product\details\product-details-4.jpg" />
+    <Content Include="Library\img\product\details\product-details-5.jpg" />
+    <Content Include="Library\img\product\details\thumb-1.jpg" />
+    <Content Include="Library\img\product\details\thumb-2.jpg" />
+    <Content Include="Library\img\product\details\thumb-3.jpg" />
+    <Content Include="Library\img\product\details\thumb-4.jpg" />
+    <Content Include="Library\img\product\discount\pd-1.jpg" />
+    <Content Include="Library\img\product\discount\pd-2.jpg" />
+    <Content Include="Library\img\product\discount\pd-3.jpg" />
+    <Content Include="Library\img\product\discount\pd-4.jpg" />
+    <Content Include="Library\img\product\discount\pd-5.jpg" />
+    <Content Include="Library\img\product\discount\pd-6.jpg" />
+    <Content Include="Library\img\product\product-1.jpg" />
+    <Content Include="Library\img\product\product-10.jpg" />
+    <Content Include="Library\img\product\product-11.jpg" />
+    <Content Include="Library\img\product\product-12.jpg" />
+    <Content Include="Library\img\product\product-2.jpg" />
+    <Content Include="Library\img\product\product-3.jpg" />
+    <Content Include="Library\img\product\product-4.jpg" />
+    <Content Include="Library\img\product\product-5.jpg" />
+    <Content Include="Library\img\product\product-6.jpg" />
+    <Content Include="Library\img\product\product-7.jpg" />
+    <Content Include="Library\img\product\product-8.jpg" />
+    <Content Include="Library\img\product\product-9.jpg" />
+    <Content Include="Library\js\bootstrap.min.js" />
+    <Content Include="Library\js\jquery-3.3.1.min.js" />
+    <Content Include="Library\js\jquery-ui.min.js" />
+    <Content Include="Library\js\jquery.nice-select.min.js" />
+    <Content Include="Library\js\jquery.slicknav.js" />
+    <Content Include="Library\js\main.js" />
+    <Content Include="Library\js\mixitup.min.js" />
+    <Content Include="Library\js\owl.carousel.min.js" />
+    <Content Include="QuanLyQuanMiCay.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QuanLyQuanMiCay.edmx</DependentUpon>
+      <LastGenOutput>QuanLyQuanMiCay.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="QuanLyQuanMiCay.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QuanLyQuanMiCay.edmx</DependentUpon>
+      <LastGenOutput>QuanLyQuanMiCay.cs</LastGenOutput>
+    </Content>
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Client\lib\waypoints\links.php" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_LayoutAdmin.cshtml" />
+    <Content Include="Areas\Admin\Views\HomeAD\Index.cshtml" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Bold.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Bold.otf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Bold.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Bold.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Heavy.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Heavy.otf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Heavy.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Heavy.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Medium.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Medium.otf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Medium.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Medium.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Regular.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Regular.otf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Regular.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\Gilmer-Regular.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Book.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Book.otf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Book.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Book.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Medium.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Medium.otf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Medium.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Medium.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Regular.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Regular.otf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Regular.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\fonts\TofinoPersonal-Regular.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\fa-brands.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\fa-regular.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\fa-solid.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\fontawesome.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_animated.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_bordered-pulled.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_core.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_fixed-width.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_icons.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_larger.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_list.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_mixins.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_rotated-flipped.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_screen-reader.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_stacked.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\less\_variables.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\fa-brands.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\fa-regular.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\fa-solid.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\fontawesome.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_animated.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_core.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_icons.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_larger.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_list.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_mixins.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_stacked.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\scss\_variables.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-brands-400.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-brands-400.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-brands-400.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-brands-400.woff2" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-regular-400.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-regular-400.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-regular-400.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-regular-400.woff2" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-solid-900.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-solid-900.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-solid-900.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\font-awesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\simple-line-icons\fonts\Simple-Line-Icons.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\simple-line-icons\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\simple-line-icons\fonts\Simple-Line-Icons.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\simple-line-icons\fonts\Simple-Line-Icons.woff2" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\simple-line-icons\less\simple-line-icons.less" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\simple-line-icons\scss\simple-line-icons.scss" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\themify-icons\fonts\themify.eot" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\themify-icons\fonts\themify.ttf" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\themify-icons\fonts\themify.woff" />
+    <Content Include="Areas\Admin\Assets\dist\css\icons\themify-icons\themify-icons.less" />
+    <Content Include="Areas\Staff\Views\web.config" />
+    <Content Include="Areas\Admin\Views\HomeAD\Login.cshtml" />
+    <Content Include="Areas\Admin\Views\Bill\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\BookAD\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Ingredient\Index.cshtml" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net-bs4\package.json" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net-bs4\Readme.md" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net\package.json" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\datatables.net\Readme.md" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\example1\delete.php" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\example1\insert.php" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\example1\load.json" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\example1\update.php" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\less\lobilist.less" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\less\mixins.less" />
+    <Content Include="Areas\Admin\Assets\assets\extra-libs\taskboard\less\variables.less" />
+    <Content Include="Areas\Admin\Assets\assets\images\background\Thumbs.db" />
+    <Content Include="Areas\Admin\Assets\assets\images\big\Thumbs.db" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\js\bootstrap.js.map" />
+    <Content Include="Areas\Admin\Assets\assets\libs\bootstrap\dist\js\bootstrap.min.js.map" />
+    <Content Include="Areas\Admin\Assets\assets\libs\morris.js\bower.travis.json" />
+    <Content Include="Areas\Admin\Assets\assets\libs\popper.js\dist\umd\poppper.js.flow" />
+    <Content Include="Areas\Admin\Views\Client\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Client\Updateclient.cshtml" />
+    <Content Include="Areas\Admin\Views\Staff\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Staff\Addstaff.cshtml" />
+    <Content Include="Areas\Admin\Views\Staff\Updatestaff.cshtml" />
+    <Content Include="Areas\Admin\Views\Staff\Profilestaff.cshtml" />
+    <Content Include="Areas\Admin\Views\Client\Profileclient.cshtml" />
+    <Content Include="Areas\Admin\Views\Ingredient\Addingredient.cshtml" />
+    <Content Include="Areas\Admin\Views\Ingredient\Updateingredient.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_LayoutStaff.cshtml" />
+    <Content Include="Areas\Admin\Views\Nhanvien\Billbook.cshtml" />
+    <Content Include="Areas\Admin\Views\Nhanvien\ChitietHD.cshtml" />
+    <Content Include="Areas\Admin\Views\Nhanvien\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Nhanvien\List.cshtml" />
+    <Content Include="Areas\Admin\Views\Nhanvien\Login.cshtml" />
+    <Content Include="Areas\Admin\Views\Nhanvien\Phanhoi.cshtml" />
+    <Content Include="Areas\Admin\Views\Ingredient\Importingredient.cshtml" />
+    <Content Include="Areas\Admin\Views\Nhanvien\Booktable.cshtml" />
+    <Content Include="Areas\Admin\Views\Dish\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Dish\Adddish.cshtml" />
+    <Content Include="Areas\Admin\Views\Dish\Updatedish.cshtml" />
+    <Content Include="Areas\Admin\Views\Provider\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Provider\Addprovider.cshtml" />
+    <Content Include="Areas\Admin\Views\Provider\Updateprovider.cshtml" />
+    <EntityDeploy Include="QuanLyQuanMiCay.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>QuanLyQuanMiCay.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="QuanLyQuanMiCay.edmx.diagram">
+      <DependentUpon>QuanLyQuanMiCay.edmx</DependentUpon>
+    </Content>
+    <Content Include="Areas\Admin\Views\Bill\ChitietHD.cshtml" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Order\Index.cshtml" />
+    <Content Include="Views\Book\Index.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Feedback\Index.cshtml" />
+    <Content Include="Views\Qlbill\Index.cshtml" />
+    <Content Include="Views\HomeClient\Index.cshtml" />
+    <Content Include="Views\Home\Register.cshtml" />
+    <Content Include="Views\Myaccount\Index.cshtml" />
+    <Content Include="Views\Myaccount\Donhang.cshtml" />
+    <Content Include="Views\Myaccount\Account.cshtml" />
+    <Content Include="Views\Shared\_LayoutHomeClient.cshtml" />
+    <Content Include="Views\Order2\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Views\Default\" />
+    <Folder Include="Areas\Staff\Controllers\" />
+    <Folder Include="Areas\Staff\Models\" />
+    <Folder Include="Areas\Staff\Views\Shared\" />
+    <Folder Include="Client\lib\owlcarousel\assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58619</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44305/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

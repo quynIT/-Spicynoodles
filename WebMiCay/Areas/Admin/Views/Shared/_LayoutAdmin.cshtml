@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <link href="~/Areas/Admin/Assets/assets/extra-libs/c3/c3.min.css" rel="stylesheet">
+    <link href="~/Areas/Admin/Assets/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="~/Areas/Admin/Assets/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link href="~/Areas/Admin/Assets/dist/css/style.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-theme="light" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin6">
+            <nav class="navbar top-navbar navbar-expand-md">
+                <div class="navbar-header" data-logobg="skin6">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)">
+                        <i class="ti-menu ti-close"></i>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <div class="navbar-brand">
+                        <!-- Logo icon -->
+                        <a href="/Admin/HomeAD">
+                            <b class="logo-icon">
+                                <!-- Dark Logo icon -->
+                                <img src="~/Areas/Admin/Assets/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo icon -->
+                                <img src="~/Areas/Admin/Assets/assets/images/logo-icon.png" alt="homepage" class="light-logo" />
+                            </b>
+                            <!--End Logo icon -->
+                            <!-- Logo text -->
+                            <span class="logo-text">
+                                <!-- dark Logo text -->
+                                <img src="~/Areas/Admin/Assets/assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                                <!-- Light Logo text -->
+                                <img src="~/Areas/Admin/Assets/assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                            </span>
+                        </a>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                       data-toggle="collapse" data-target="#navbarSupportedContent"
+                       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="ti-more"></i>
+                    </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-left mr-auto ml-3 pl-1">
+                        <!-- Notification -->
+                        <!-- End Notification -->
+                        <!-- ============================================================== -->
+                        <!-- create new -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-right">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link" href="javascript:void(0)">
+                            </a>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">
+                                <img src="~/Areas/Admin/Assets/assets/images/users/profile-pic.jpg" alt="user" class="rounded-circle"
+                                     width="40">
+                                <span class="ml-2 d-none d-lg-inline-block">
+                                    <span>Hello,</span>
+                                    @{
+                                        //Truyền dữ liệu tên vào chỗ này
+                                        if (HttpContext.Current.Session["user"] != null)
+                                        {
+                                            var user = HttpContext.Current.Session["user"] as NhanVien;
+                                            if (user != null)
+                                            {
+                                                <span class="text-dark">@user.TenNV</span>
+                                            }
+                                        }
+                                    }
+                                    <i data-feather="chevron-down"
+                                       class="svg-icon"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
+                                <a class="dropdown-item" href="~/Admin/HomeAD/Logout">
+                                    <i data-feather="power"
+                                       class="svg-icon mr-2 ml-1"></i>
+                                    Đăng xuất
+                                </a>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- User profile and search -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin6">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar" data-sidebarbg="skin6">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link" href="~/Admin/HomeAD"
+                               aria-expanded="false">
+                                <i data-feather="home" class="feather-icon"></i><span class="hide-menu">Thống kê</span>
+                            </a>
+                        </li>
+                        <li class="list-divider"></li>
+                        <li class="nav-small-cap"><span class="hide-menu">Các ứng dụng</span></li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link" href="~/Admin/Bill/Index"
+                               aria-expanded="false">
+                                <iconify-icon icon="uil:bill" style="padding-right:6px;font-size:30px;margin-bottom:6px;"></iconify-icon><span class="hide-menu">Quản lí hóa đơn</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link sidebar-link" href="~/Admin/BookAD/Index"
+                               aria-expanded="false">
+                                <iconify-icon icon="ph:calendar-bold" style="padding-right:6px;font-size:30px;margin-bottom:6px;"></iconify-icon><span class="hide-menu">Lịch đặt</span>
+                            </a>
+                        </li>
+
+                        <li class="list-divider"></li>
+                        <li class="sidebar-item">
+                            <a href="/Admin/Client/Index" class="sidebar-link">
+                                <iconify-icon icon="streamline:information-desk-customer-solid" style="padding-right:6px;font-size:30px;margin-bottom:6px;"></iconify-icon>
+                                <span class="hide-menu">
+                                    Quản lí khách hàng
+                                </span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="/Admin/Staff/Index" class="sidebar-link">
+                               
+                                <iconify-icon icon="clarity:employee-group-solid" style="padding-right:6px;font-size:30px;margin-bottom:6px;"></iconify-icon>
+                                <span class="hide-menu">
+                                    Quản lí nhân viên
+                                </span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="/Admin/Dish/Index" class="sidebar-link">
+                                <iconify-icon icon="ic:outline-food-bank" style="padding-right:6px;font-size:30px;margin-bottom:6px;"></iconify-icon>
+                                <span class="hide-menu">
+                                    Quản lí món ăn
+                                </span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="/Admin/Ingredient/Index" class="sidebar-link">
+                                <iconify-icon icon="healthicons:fruits" style="padding-right:6px;font-size:30px;margin-bottom:6px;"></iconify-icon>
+                                <span class="hide-menu">
+                                    Quản lí nguyên liệu
+                                </span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="/Admin/Provider/Index" class="sidebar-link">
+                                <iconify-icon icon="icon-park-outline:truck" style="padding-right:6px;font-size:30px;margin-bottom:6px;"></iconify-icon>
+                                <span class="hide-menu">
+                                    Quản lí nhà cung cấp
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        @RenderBody()
+    </div>
+
+    <script src="~/Areas/Admin/Assets/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="~/Areas/Admin/Assets/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <!-- apps -->
+    <script src="~/Areas/Admin/Assets/dist/js/app-style-switcher.js"></script>
+    <script src="~/Areas/Admin/Assets/dist/js/feather.min.js"></script>
+    <script src="~/Areas/Admin/Assets/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/Areas/Admin/Assets/dist/js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <script src="~/Areas/Admin/Assets/assets/extra-libs/c3/d3.min.js"></script>
+    <script src="~/Areas/Admin/Assets/assets/extra-libs/c3/c3.min.js"></script>
+    <script src="~/Areas/Admin/Assets/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="~/Areas/Admin/Assets/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="~/Areas/Admin/Assets/assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="~/Areas/Admin/Assets/dist/js/pages/dashboards/dashboard1.min.js"></script>
+    <script>
+        $(function () {
+            "use strict";
+            var url = window.location + "";
+            var path = url.replace(window.location.protocol + "//" + window.location.host + "/", "");
+            var element = $('ul#sidebarnav a').filter(function () {
+                return this.href === url || this.href === path;// || url.href.indexOf(this.href) === 0;
+            });
+            element.parentsUntil(".sidebar-nav").each(function (index) {
+                if ($(this).is("li") && $(this).children("a").length !== 0) {
+                    $(this).children("a").addClass("active");
+                    $(this).parent("ul#sidebarnav").length === 0
+                        ? $(this).addClass("active")
+                        : $(this).addClass("selected");
+                }
+                else if (!$(this).is("ul") && $(this).children("a").length === 0) {
+                    $(this).addClass("selected");
+
+                }
+                else if ($(this).is("ul")) {
+                    $(this).addClass('in');
+                }
+
+            });
+
+            element.addClass("active");
+            $('#sidebarnav a').on('click', function (e) {
+
+                if (!$(this).hasClass("active")) {
+                    // hide any open menus and remove all other classes
+                    $("ul", $(this).parents("ul:first")).removeClass("in");
+                    $("a", $(this).parents("ul:first")).removeClass("active");
+
+                    // open our new menu and add the open class
+                    $(this).next("ul").addClass("in");
+                    $(this).addClass("active");
+
+                }
+                else if ($(this).hasClass("active")) {
+                    $(this).removeClass("active");
+                    $(this).parents("ul:first").removeClass("active");
+                    $(this).next("ul").removeClass("in");
+                }
+            })
+            $('#sidebarnav >li >a.has-arrow').on('click', function (e) {
+                e.preventDefault();
+            });
+
+        });
+    </script>
+</body>
+<script src="~/Areas/Admin/Assets/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>

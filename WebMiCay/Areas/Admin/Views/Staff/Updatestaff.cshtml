@@ -1,0 +1,256 @@
+﻿@model WebMiCay.Areas.Admin.Models.StaffViewModel
+@{
+    ViewBag.Title = "Updateclient";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <link rel="canonical"
+          href="https://www.wrappixel.com/templates/ample-admin-lite/" />
+    <link href="~/Areas/Admin/Assets/Client/css/style.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+
+    <div id="main-wrapper"
+         data-layout="vertical"
+         data-navbarbg="skin5"
+         data-sidebartype="full"
+         data-sidebar-position="absolute"
+         data-header-position="absolute"
+         data-boxed-layout="full">
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-4 col-xlg-3 col-md-12">
+                        <div class="white-box">
+                            <div class="user-bg">
+                                <img width="100%"
+                                     alt="user"
+                                     src="plugins/images/large/img1.jpg" />
+                                <div class="overlay-box">
+                                    <div class="user-content">
+                                        <a href="javascript:void(0)">
+                                            <img src="/Areas/Admin/Assets/assets/images/users/profile-pic.jpg   "
+                                                 class="thumb-lg img-circle"
+                                                 alt="img" />
+                                        </a>
+                                        <h4 class="text-white mt-2">@Model.TenTaiKhoanNV</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="col-lg-8 col-xlg-9 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <form class="form-horizontal form-material" method="post" onsubmit="return validateForm()">
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0">Tên nhân viên</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="text"
+                                                   class="form-control p-0 border-0"
+                                                   name=tenNV />
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4">
+                                        <label for="example-email" class="col-md-12 p-0">Số điện thoại</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="text"
+                                                   class="form-control p-0 border-0"
+                                                   name="soDienThoai"
+                                                   id="example-email" />
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Không được để trống!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0">Ngày sinh:</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="date"
+                                                   class="form-control p-0 border-0"
+                                                   name="ngaySinh"
+                                                   asp-for="ngaySinh" asp-format="{0:dd/MM/yyyy}" />
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Không được để trống!
+                                            </div>
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Phải lớn hơn hoặc bằng 18 tuổi!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0">Địa chỉ:</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="text"
+                                                   class="form-control p-0 border-0"
+                                                   name="diaChi" />
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4">
+                                        <label class="col-sm-12">Giới tính</label>
+                                        <div class="col-sm-12 border-bottom">
+                                            <select class="form-select shadow-none p-0 border-0 form-control-line" name="gioiTinh">
+                                                <option>Lựa chọn giới tính</option>
+                                                <option>Nam</option>
+                                                <option>Nữ</option>
+                                            </select>
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Phải chọn giới tính!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4">
+                                        <label class="col-md-12 p-0">Mật khẩu:</label>
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="text"
+                                                   placeholder="Nhập mật khẩu muốn đổi.."
+                                                   class="form-control p-0 border-0"
+                                                   name="matKhau" />
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Không được để trống!
+                                            </div>
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Phải có ít nhất 10 ký tự!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-4">
+                                        <div class="col-sm-12">
+                                            <button class="btn btn-success">Cập nhật thông tin</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Areas/Admin/Assets/Client/js/jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/app-style-switcher.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/waves.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/custom.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/sidebarmenu.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            $(function () {
+                $(".file-upload-browse").on("click", function () {
+                    var file = $(this)
+                        .parent()
+                        .parent()
+                        .parent()
+                        .find(".file-upload-default");
+                    file.trigger("click");
+                });
+                $(".file-upload-default").on("change", function () {
+                    $(this)
+                        .parent()
+                        .find(".form-control")
+                        .val(
+                            $(this)
+                                .val()
+                                .replace(/C:\\fakepath\\/i, "")
+                        );
+                });
+            });
+        })(jQuery);
+    </script>
+
+    <!-->Xử lý tính hợp lệ khi cập nhật thông tin</!-->
+    <script>
+        function validateForm() {
+            // Lấy giá trị từ các trường nhập
+            var soDienThoai = document.getElementsByName("soDienThoai")[0].value;
+            var ngaySinh = document.getElementsByName("ngaySinh")[0].value;
+            var gioiTinh = document.getElementsByName("gioiTinh")[0].value;
+            var matKhau = document.getElementsByName("matKhau")[0].value;
+
+            // Khai báo biến kiểm tra lỗi
+            var hasError = false;
+
+            // Kiểm tra Số điện thoại có 10 số nếu có giá trị
+            if (soDienThoai.trim() !== "" && !/^\d{10}$/.test(soDienThoai)) {
+                showError("Số điện thoại phải có 10 số!", "soDienThoai");
+                hasError = true;
+            } else {
+                hideError("soDienThoai");
+            }
+
+            // Kiểm tra Ngày sinh không nhỏ hơn 18 nếu có giá trị
+            if (ngaySinh.trim() !== "") {
+                var birthDate = new Date(ngaySinh);
+                var today = new Date();
+                var age = today.getFullYear() - birthDate.getFullYear();
+
+                if (age < 18) {
+                    showError("Phải lớn hơn hoặc bằng 18 tuổi!", "ngaySinh");
+                    hasError = true;
+                } else {
+                    hideError("ngaySinh");
+                }
+            }
+
+            // Kiểm tra Giới tính phải được chọn nếu có giá trị
+            if (gioiTinh.trim() !== "" && gioiTinh === "Lựa chọn giới tính") {
+                showError("Phải chọn giới tính!", "gioiTinh");
+                hasError = true;
+            } else {
+                hideError("gioiTinh");
+            }
+
+            // Kiểm tra Mật khẩu phải có ít nhất 10 ký tự nếu có giá trị
+            if (matKhau.trim() !== "" && matKhau.length < 10) {
+                showError("Mật khẩu phải có ít nhất 10 ký tự!", "matKhau");
+                hasError = true;
+            } else {
+                hideError("matKhau");
+            }
+
+            // Nếu có lỗi, ngăn chặn form gửi đi
+            return !hasError;
+        }
+
+        // Hiển thị thông báo lỗi
+        function showError(errorMessage, inputName) {
+            // Ẩn tất cả các thông báo lỗi trước khi hiển thị mới
+            document.querySelectorAll('.alert-danger').forEach(function (element) {
+                element.style.display = 'none';
+            });
+
+            var errorElement = document.querySelector(`[name=${inputName}] + .alert-danger`);
+            errorElement.textContent = errorMessage;
+            errorElement.style.display = "block";
+        }
+
+        // Ẩn thông báo lỗi
+        function hideError(inputName) {
+            var errorElement = document.querySelector(`[name=${inputName}] + .alert-danger`);
+            errorElement.style.display = "none";
+        }
+    </script>
+</body>
+</html>

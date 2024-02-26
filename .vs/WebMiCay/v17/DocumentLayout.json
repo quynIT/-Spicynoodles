@@ -1,0 +1,523 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\homead\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\homead\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\shared\\_layoutstaff .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\shared\\_layoutstaff .cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\nhanvien\\booktable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\nhanvien\\booktable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\nhanvien\\chitiethd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\nhanvien\\chitiethd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\nhanvien\\billbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\nhanvien\\billbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\nhanvien\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\nhanvien\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\ingredient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\ingredient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\staff\\addstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\staff\\addstaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\staff\\updatestaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\staff\\updatestaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\staff\\profilestaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\staff\\profilestaff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\staff\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\staff\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\client\\updateclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\client\\updateclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\client\\profileclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\client\\profileclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\bookad\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\bookad\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\areas\\admin\\views\\bill\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\areas\\admin\\views\\bill\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\views\\qlbill\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\views\\qlbill\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\controllers\\qlbillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\controllers\\qlbillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\client\\css\\stylelogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\client\\css\\stylelogin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|c:\\users\\acer\\downloads\\m\u00EC cay\\webmicay\\webmicay\\client\\book\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84DF5BDE-C62E-40B8-99C7-32AEB6DC9A1D}|WebMiCay\\WebMiCay.csproj|solutionrelative:webmicay\\client\\book\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Booktable.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Booktable.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Booktable.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Booktable.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Booktable.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T04:22:36.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChitietHD.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\ChitietHD.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\ChitietHD.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\ChitietHD.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\ChitietHD.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T04:17:12.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Billbook.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Billbook.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Billbook.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Billbook.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Billbook.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEUAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T04:13:41.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Addstaff.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Staff\\Addstaff.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Staff\\Addstaff.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Staff\\Addstaff.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Staff\\Addstaff.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T04:05:36.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Updatestaff.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Staff\\Updatestaff.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Staff\\Updatestaff.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Staff\\Updatestaff.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Staff\\Updatestaff.cshtml",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwF8AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T04:04:20.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Profilestaff.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Staff\\Profilestaff.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Staff\\Profilestaff.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Staff\\Profilestaff.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Staff\\Profilestaff.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAArwFcAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T04:02:52.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Staff\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Staff\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Staff\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Staff\\Index.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAGUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T04:01:38.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T04:01:30.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Updateclient.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Client\\Updateclient.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Client\\Updateclient.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Client\\Updateclient.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Client\\Updateclient.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGkAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T03:59:33.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\HomeAD\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\HomeAD\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\HomeAD\\Login.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\HomeAD\\Login.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T03:57:21.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutStaff .cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Shared\\_LayoutStaff .cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Shared\\_LayoutStaff .cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Shared\\_LayoutStaff .cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Shared\\_LayoutStaff .cshtml",
+              "ViewState": "AQIAALgAAAAAAAAAAAArwM0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T04:08:56.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Ingredient\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Ingredient\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Ingredient\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Ingredient\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T04:05:48.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Views\\Book\\Index.cshtml",
+              "ViewState": "AQIAACsAAAAAAAAAAAArwEsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T01:31:05.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Profileclient.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Client\\Profileclient.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Client\\Profileclient.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Client\\Profileclient.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Client\\Profileclient.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAArwFoAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T03:56:36.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\List.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\List.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\List.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Nhanvien\\List.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAArwB8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T02:50:19.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Client\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Client\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Client\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Client\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T03:55:51.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\BookAD\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\BookAD\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\BookAD\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\BookAD\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T03:49:37.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Bill\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Areas\\Admin\\Views\\Bill\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Areas\\Admin\\Views\\Bill\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Areas\\Admin\\Views\\Bill\\Index.cshtml",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAkwGQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T03:41:27.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Feedback\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Views\\Feedback\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Feedback\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Views\\Feedback\\Index.cshtml",
+              "ViewState": "AQIAAFcBAAAAAAAAAAAAwG0BAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T03:37:08.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "stylelogin.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Client\\css\\stylelogin.css",
+              "RelativeDocumentMoniker": "WebMiCay\\Client\\css\\stylelogin.css",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Client\\css\\stylelogin.css",
+              "RelativeToolTip": "WebMiCay\\Client\\css\\stylelogin.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-12-02T03:02:11.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "WebMiCay\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAB+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T02:43:26.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAHoAAAAAAAAAAAArwKwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T01:44:13.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Qlbill\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Views\\Qlbill\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Qlbill\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Views\\Qlbill\\Index.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAADIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T01:36:47.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QlbillController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Controllers\\QlbillController.cs",
+              "RelativeDocumentMoniker": "WebMiCay\\Controllers\\QlbillController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Controllers\\QlbillController.cs",
+              "RelativeToolTip": "WebMiCay\\Controllers\\QlbillController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-02T01:36:30.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebMiCay\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T01:35:02.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Client\\Book\\css\\style.css",
+              "RelativeDocumentMoniker": "WebMiCay\\Client\\Book\\css\\style.css",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Client\\Book\\css\\style.css",
+              "RelativeToolTip": "WebMiCay\\Client\\Book\\css\\style.css",
+              "ViewState": "AQIAAJgEAAAAAAAAAAArwLEEAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-12-02T01:33:41.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiCay\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Downloads\\m\u00EC cay\\WebMiCay\\WebMiCay\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebMiCay\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHgCAAAAAAAAAAAAAJACAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-02T01:23:23.998Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

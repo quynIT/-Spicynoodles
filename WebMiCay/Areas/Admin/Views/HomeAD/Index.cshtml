@@ -1,0 +1,276 @@
+﻿@model List<WebMiCay.Areas.Admin.Models.DoanhThuViewModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<link href="~/Areas/Admin/Assets/assets/extra-libs/c3/c3.min.css" rel="stylesheet" />
+<link href="~/Areas/Admin/Assets/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet" />
+<link href="~/Areas/Admin/Assets/dist/css/style.min.css" rel="stylesheet" />
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<div class="page-wrapper">
+    <!-- Content -->
+
+    <div class="container-fluid">
+        <!-- *************************************************************** -->
+        <!-- Start First Cards -->
+        <!-- *************************************************************** -->
+        <div class="card-group">
+            <div class="card border-right">
+                <div class="card-body">
+                    <div class="d-flex d-lg-flex d-md-block align-items-center">
+                        <div>
+                            <div class="d-inline-flex align-items-center">
+                                <!-- Thêm class 'customer-count' vào phần tử hiển thị số lượng tài khoản khách hàng -->
+                                <h2 class="text-dark mb-1 font-weight-medium customer-count">0</h2>
+                            </div>
+                            <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">
+                                Người dùng
+                            </h6>
+                        </div>
+                        <div class="ml-auto mt-md-3 mt-lg-0">
+                            <span class="opacity-7 text-muted">
+                                <iconify-icon icon="majesticons:user" style="padding-right:6px;font-size:30px;margin-bottom:6px;"></iconify-icon>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-right">
+                <div class="card-body">
+                    <div class="d-flex d-lg-flex d-md-block align-items-center">
+                        <div>
+                            <h2 class="text-dark mb-1 w-100 text-truncate font-weight-medium">
+                                18,306
+                            </h2>
+                            <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">
+                                Thu nhập tháng này
+                            </h6>
+                        </div>
+                        <div class="ml-auto mt-md-3 mt-lg-0">
+                            <span class="opacity-7 text-muted">
+                                <sup class="set-doller">VNĐ</sup>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-right">
+                <div class="card-body">
+                    <div class="d-flex d-lg-flex d-md-block align-items-center">
+                        <div>
+                            <div class="d-inline-flex align-items-center">
+                                <h2 class="text-dark mb-1 font-weight-medium employee-count">0</h2>
+                            </div>
+                            <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">
+                                Nhân viên
+                            </h6>
+                        </div>
+                        <div class="ml-auto mt-md-3 mt-lg-0">
+                            <span class="opacity-7 text-muted">
+                                <iconify-icon icon="clarity:employee-group-solid" style="padding-right:6px;font-size:30px;margin-bottom:6px;"></iconify-icon>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex d-lg-flex d-md-block align-items-center">
+                        <div>
+                            <h2 class="text-dark mb-1 font-weight-medium dish-count">0</h2>
+                            <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">
+                                Món ăn
+                            </h6>
+                        </div>
+                        <div class="ml-auto mt-md-3 mt-lg-0">
+                            <span class="opacity-7 text-muted">
+                                <iconify-icon icon="ic:outline-food-bank" style="padding-right:6px;font-size:30px;margin-bottom:6px;"></iconify-icon>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- *************************************************************** -->
+        <!-- End First Cards -->
+        <!-- *************************************************************** -->
+        <!-- *************************************************************** -->
+        <!-- Start Sales Charts Section -->
+        <!-- *************************************************************** -->
+        <div class="row" style="margin-left:40px;">
+            @foreach (var item in Model)
+            {
+                <div class="col-xl-1 change">
+                    <!-- Thêm thuộc tính data-thang vào đây -->
+                    <div class="cot" data-thang="@item.TenThang">
+                        <p class="hover-text">@item.TenThang <br> Doanh thu: <span class="doanhthu">@item.DoanhThu.ToString("N0")</span> </p>
+                    </div>
+                    <p style="margin-left:8px;margin-top:5px;">T @item.Thang</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<style>
+
+    .cot100 {
+        background-color: rgba(93, 135, 255, 0.85);
+        height: 400px;
+        width: 35px;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    .cot40 {
+        background-color: rgba(93, 135, 255, 0.85);
+        height: 160px;
+        margin-top: 240px;
+        width: 35px;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    .cot60 {
+        background-color: rgba(93, 135, 255, 0.85);
+        height: 240px;
+        margin-top: 160px;
+        width: 35px;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    .cot80 {
+        background-color: rgba(93, 135, 255, 0.85);
+        height: 320px;
+        margin-top: 80px;
+        width: 35px;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    .cot20 {
+        background-color: rgba(93, 135, 255, 0.85);
+        margin-top: 320px;
+        height: 80px;
+        width: 35px;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    .hover-text {
+        display: none;
+    }
+
+    .cot:hover .hover-text {
+        display: block;
+    }
+
+    .hover-text {
+        width: 200px;
+        height: 60px;
+        background-color: rgba(73, 190, 255, 0.85);
+        z-index: 1000;
+        margin-left: 60px;
+        position: absolute;
+        padding: 10px;
+        border-radius: 4px 4px 4px 4px;
+        color: #2a3547;
+        text-align: center;
+    }
+</style>
+<script>
+   // Chuyển dữ liệu từ C# sang JavaScript
+    var doanhThuData = @Html.Raw(Json.Encode(Model));
+
+    doanhThuData.forEach(function (item) {
+        var tong = parseInt(item.DoanhThu);
+        var colContainer = document.querySelector('.cot[data-thang="' + item.TenThang + '"]');
+        if (tong < 100000) {
+            colContainer.classList.add('cot20');
+        } else if (tong >= 100000 && tong < 300000) {
+            colContainer.classList.add('cot40');
+        } else if (tong >= 300000 && tong < 500000) {
+            colContainer.classList.add('cot60');
+        } else if (tong >= 500000 && tong < 800000) {
+            colContainer.classList.add('cot80');
+        } else if (tong >= 800000) {
+            colContainer.classList.add('cot100');
+        }
+    });
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    // Js để đếm số lượng tài khoản khách
+    function updateCustomerCount() {
+        $.ajax({
+            url: '/HomeAD/GetCustomerCount',
+            type: 'GET',
+            success: function (count) {
+                $('.customer-count').text(count);
+            }
+        });
+    }
+
+    // Gọi hàm này sau khi thêm hoặc xóa tài khoản khách hàng
+    updateCustomerCount();
+
+    // Js để đếm số lượng tài khoản nhân viên
+    function updateEmployeeCount() {
+        $.ajax({
+            url: '/HomeAD/GetEmployeeCount',
+            type: 'GET',
+            success: function (count) {
+                $('.employee-count').text(count);
+            }
+        });
+    }
+
+    // Tính doanh thu tháng
+    // Chuyển dữ liệu từ C# sang JavaScript
+    var doanhThuData = @Html.Raw(Json.Encode(ViewBag.DoanhThuData));
+
+    // Tìm tháng hiện tại
+    var date = new Date();
+    var currentMonth = date.getMonth() + 1; // JavaScript months are 0-based
+
+    // Tìm doanh thu của tháng hiện tại
+    var currentMonthData = doanhThuData.find(item => item.Thang === currentMonth);
+    var currentMonthRevenue = currentMonthData ? currentMonthData.DoanhThu : 0;
+
+    // Cập nhật giao diện với dữ liệu mới
+    $(".text-dark.mb-1").text(currentMonthRevenue);
+
+    // Gọi hàm này sau khi thêm hoặc xóa tài khoản nhân viên
+    updateEmployeeCount();
+
+    // Js để đếm số lượng món
+    function updateDish() {
+        $.ajax({
+            url: '/HomeAD/GetDishCount',
+            type: 'GET',
+            success: function (count) {
+                $('.dish-count').text(count);
+            }
+        });
+    }
+
+    // Gọi hàm này sau khi thêm hoặc xóa món
+    updateDish();
+</script>
+
+<script src="~/Areas/Admin/Assets/assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="~/Areas/Admin/Assets/assets/libs/popper.js/dist/umd/popper.min.js"></script>
+<!-- apps -->
+<!-- apps -->
+<script src="~/Areas/Admin/Assets/dist/js/app-style-switcher.js"></script>
+<script src="~/Areas/Admin/Assets/dist/js/feather.min.js"></script>
+<script src="~/Areas/Admin/Assets/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+<script src="~/Areas/Admin/Assets/dist/js/sidebarmenu.js"></script>
+<!--Custom JavaScript -->
+<script src="dist/js/custom.min.js"></script>
+<!--This page JavaScript -->
+<script src="~/Areas/Admin/Assets/assets/extra-libs/c3/d3.min.js"></script>
+<script src="~/Areas/Admin/Assets/assets/extra-libs/c3/c3.min.js"></script>
+<script src="~/Areas/Admin/Assets/assets/libs/chartist/dist/chartist.min.js"></script>
+<script src="~/Areas/Admin/Assets/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+<script src="~/Areas/Admin/Assets/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+<script src="~/Areas/Admin/Assets/assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+<script src="~/Areas/Admin/Assets/dist/js/dashboard1.js"></script>
+<script src="~/Areas/Admin/Assets/dist/js/dashboard1.min.js"></script>

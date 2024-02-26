@@ -1,0 +1,121 @@
+﻿@{
+    var user = Session["user"] as KhachHang;
+}
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutHomeClient.cshtml";
+}
+<div class="page_title_inner baseline">
+    <h1 style="font-family: reforma_2018blanca; ">
+        <span class="ppb_title_first">Tài khoản</span>của tôi
+    </h1>
+</div>
+<div class="row" style="margin-bottom:200px">
+    <div class="col-xl-3">
+        <ul class="cars">
+            <li><a href="/Myaccount/Index">Trang tài khoản</a></li>
+            <li><a href="/Myaccount/Donhang">Đơn hàng</a></li>
+            <li><a href="/Myaccount/Account">Tài khoản</a></li>
+            <li><a href="/Myaccount/Logout">Đăng xuất</a></li>
+        </ul>
+    </div>
+    <div class="col-xl-7">
+        <div>
+            <p>
+                Xin chào
+                <strong>@user.TenKH</strong>, <strong>SĐT: @user.SDT</strong>, <strong>Ngày sinh: @user.NgaySinh.ToString("dd/MM/yyyy")</strong>, 
+                <strong>Địa chỉ: @user.DiaChi</strong>, <strong>Giới tính: @user.GioiTinh</strong>
+                (không phải tài khoản này? Hãy
+                <a href="~/Myaccount/Logout">thoát ra</a>
+                và đăng nhập lại vào tài khoản của bạn)
+            </p>
+            <p>
+                Từ trang quản lí bạn có thể xem
+                <a href="/Myaccount/Donhang">đơn hàng</a>,
+                <a href="/Myaccount/Account">sửa mật khẩu và thông tin tài khoản</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+<style>
+    .row {
+        margin: 30px;
+    }
+
+    .ppb_title_first {
+        font-family: reforma_2018blanca;
+        line-height: 50px;
+        color: #ca9c5e;
+    }
+
+    .ppb_title_first {
+        display: block;
+        font-style: italic;
+        font-size: 70px;
+        text-transform: none;
+        top: 0;
+        position: relative;
+        letter-spacing: 0 !important;
+        font-weight: 400;
+    }
+
+    .h1 {
+        font-family: inherit !important;
+    }
+
+    .baseline {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    input {
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    body {
+        font-family: reforma_2018blanca;
+    }
+
+    .card {
+        border-radius: 4px 4px 4px 4px;
+        border: 0px solid #000000;
+    }
+
+    .text-muted {
+        color: #687178 !important;
+        font-weight: 700;
+        font-size: 1em;
+        margin-left: 5px;
+    }
+
+    .form-group {
+        margin-top: 15px;
+    }
+
+    .cars {
+        margin-top: 70px;
+    }
+
+    a {
+        font-size: 20px;
+        color: #ca9c5e;
+    }
+
+    li a:hover {
+        color: #000;
+    }
+
+    .bxx {
+        background-color: #8fe3b3;
+        padding-right: 40px;
+        padding-left: 5px;
+        border-radius: 3px 3px 3px 3px;
+    }
+
+    p {
+        font-size: 20px;
+        color: #000;
+    }
+</style>

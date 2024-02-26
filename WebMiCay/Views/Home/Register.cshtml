@@ -1,0 +1,388 @@
+﻿@model WebMiCay.Models.ClientViewModel
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="canonical"
+      href="https://www.wrappixel.com/templates/ample-admin-lite/" />
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<link href="~/Client/css/stylelogin.css" rel="stylesheet" />
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="row full-height justify-content-center">
+                <div class="col-12 text-center align-self-center py-5">
+                    <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                        <div class="center-wrap">
+                            <div class="section text-center">
+                                <form class="form-horizontal form-material" method="post">
+                                    <h4 class="mb-3 pb-3">Đăng Ký</h4>
+                                    <div class="form-group">
+                                        <input type="text"
+                                               class="form-style"
+                                               name=TenKH placeholder="Họ tên" />
+                                        <i class="input-icon uil uil-user"></i>
+                                        <div class="alert alert-danger" style="display: none;">
+                                            Không được để trống!
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="text"
+                                                   class="form-style"
+                                                   name="SDT"
+                                                   id="example-email" placeholder="Số điện thoại" />
+                                            <i class="input-icon uil uil-phone"></i>
+                                            <div class="alert alert-danger" style="display: none;">
+                                                Không được để trống!
+                                            </div>
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Phải có 10 số!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="date"
+                                                   class="form-style"
+                                                   name="NgaySinh"
+                                                   asp-for="NgaySinh" asp-format="{0:dd/MM/yyyy}" placeholder="Ngày sinh" />
+                                            <i><iconify-icon class="input-icon" icon="uiw:date" style="margin-top:8px;"></iconify-icon></i>
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Không được để trống!
+                                            </div>
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Phải lớn hơn hoặc bằng 18 tuổi!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="text"
+                                                   class="form-style"
+                                                   name="DiaChi" placeholder="Địa chỉ" />
+                                            <i><iconify-icon icon="carbon:map" class="input-icon" style="margin-top:8px;"></iconify-icon></i>
+                                            <div class="alert alert-danger" style="display: none;">
+                                                Không được để trống!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group gioitinh">
+                                        <i><iconify-icon icon="ph:gender-intersex" class="input-icon" style="margin-top:8px;"></iconify-icon></i>
+                                        <select class=" form-style" name="GioiTinh" style="color: #786b6b;">
+                                            <option>Lựa chọn giới tính</option>
+                                            <option>Nam</option>
+                                            <option>Nữ</option>
+                                        </select>
+                                        <div class="alert alert-danger hidden" style="display: none;">
+                                            Phải chọn giới tính!
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="text"
+                                                   name="Username"
+                                                   class="form-style" placeholder="Tên tài khoản" />
+                                            <i class="input-icon uil uil-at"></i>
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Không được để trống!
+                                            </div>
+                                            @if (!String.IsNullOrEmpty(ViewBag.ErrorMessage))
+                                            {
+                                                <div class="alert alert-danger">
+                                                    @ViewBag.ErrorMessage
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <div class="col-md-12 border-bottom p-0">
+                                            <input type="text"
+                                                   placeholder="Mật khẩu"
+                                                   class="form-style"
+                                                   name="MatKhau" />
+                                            <i class="input-icon uil uil-lock-alt"></i>
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Không được để trống!
+                                            </div>
+                                            <div class="alert alert-danger hidden" style="display: none;">
+                                                Phải có ít nhất 10 ký tự!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <button class="btn mt-4 btn-success">Đăng ký</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <a href="/Home/Login" style="margin-right:20px;">Đăng nhập ngay?</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Areas/Admin/Assets/Client/js/jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/app-style-switcher.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/waves.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/custom.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/sidebarmenu.js"></script>
+
+    <script>
+        (function ($) {
+            "use strict";
+            $(function () {
+                $(".file-upload-browse").on("click", function () {
+                    var file = $(this)
+                        .parent()
+                        .parent()
+                        .parent()
+                        .find(".file-upload-default");
+                    file.trigger("click");
+                });
+                $(".file-upload-default").on("change", function () {
+                    $(this)
+                        .parent()
+                        .find(".form-control")
+                        .val(
+                            $(this)
+                                .val()
+                                .replace(/C:\\fakepath\\/i, "")
+                        );
+                });
+            });
+        })(jQuery);
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.btn-success').click(function (e) {
+                var isValid = true;
+                // Xử lý bỏ trống không nhập hay chọn gì
+                $('input[type="text"]').each(function () {
+                    if ($.trim($(this).val()) == '') {
+                        isValid = false;
+                        $(this).css({
+                            "border": "1px solid red",
+                            "background": "#FFCECE"
+                        });
+                        $(this).siblings('.alert').show();
+                    }
+                    else {
+                        $(this).css({
+                            "border": "",
+                            "background": ""
+                        });
+                        $(this).siblings('.alert').hide();
+                        console.log("lỗi cmnr cu ", isValid);
+                    }
+                });
+
+                // Xử lý SĐT không đủ 10 số và bỏ trống
+                var phoneValue = $('input[name="SDT"]').val();
+                if (phoneValue == '') {
+                    isValid = false;
+                    $('input[name="SDT"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[name="SDT"]').siblings('.alert').first().show();
+                    $('input[name="SDT"]').siblings('.alert').last().hide();
+                } else if (phoneValue.length < 10 || phoneValue.length > 10) {
+                    isValid = false;
+                    $('input[name="SDT"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[name="SDT"]').siblings('.alert').first().hide();
+                    $('input[name="SDT"]').siblings('.alert').last().show();
+                } else {
+                    $('input[name="SDT"]').css({
+                        "border": "",
+                        "background": ""
+                    });
+                    $('input[name="SDT"]').siblings('.alert').hide();
+                    console.log("lỗi cmnr cu ", isValid);
+                }
+
+                // Xử lý khi không chọn ngày sinh và ngày sinh không >= 18
+                var dobValue = $('input[type="date"]').val();
+                if (dobValue == '') {
+                    isValid = false;
+                    $('input[type="date"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[type="date"]').siblings('.alert').first().show();
+                    $('input[type="date"]').siblings('.alert').last().hide();
+                    console.log("lỗi cmnr cu ", isValid);
+                } else {
+                    var dob = new Date(dobValue);
+                    var today = new Date();
+                    var age = today.getFullYear() - dob.getFullYear();
+                    var m = today.getMonth() - dob.getMonth();
+                    if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+                        age--;
+                    }
+
+                    if (age < 18) {
+                        isValid = false;
+                        $('input[type="date"]').css({
+                            "border": "1px solid red",
+                            "background": "#FFCECE"
+                        });
+                        $('input[type="date"]').siblings('.alert').first().hide();
+                        $('input[type="date"]').siblings('.alert').last().show();
+                    } else {
+                        $('input[type="date"]').css({
+                            "border": "",
+                            "background": ""
+                        });
+                        $('input[type="date"]').siblings('.alert').hide();
+                        console.log("lỗi cmnr cu ", isValid);
+                    }
+                }
+
+                // Xử lý không chọn giới tính
+                if ($('select[name="GioiTinh"]').val() == 'Lựa chọn giới tính') {
+                    isValid = false;
+                    $('select[name="GioiTinh"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('select[name="GioiTinh"]').siblings('.alert').show();
+                } else {
+                    $('select[name="GioiTinh"]').css({
+                        "border": "",
+                        "background": ""
+                    });
+                    $('select[name="GioiTinh"]').siblings('.alert').hide();
+                    console.log("lỗi cmnr cu ", isValid);
+                }
+
+                // Xử lý mật khẩu không đủ 10 ký tự và bỏ trống
+                var passwordValue = $('input[name="MatKhau"]').val();
+                if (passwordValue == '') {
+                    isValid = false;
+                    $('input[name="MatKhau"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[name="MatKhau"]').siblings('.alert').first().show();
+                    $('input[name="MatKhau"]').siblings('.alert').last().hide();
+
+                } else if (passwordValue.length < 10) {
+                    isValid = false;
+                    $('input[name="MatKhau"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[name="MatKhau"]').siblings('.alert').first().hide();
+                    $('input[name="MatKhau"]').siblings('.alert').last().show();
+
+                } else {
+                    $('input[name="MatKhau"]').css({
+                        "border": "",
+                        "background": ""
+                    });
+                    $('input[name="MatKhau"]').siblings('.alert').hide();
+                    console.log("lỗi cmnr cu ", isValid);
+                }
+
+                if (isValid == false) {
+                    e.preventDefault();
+                } else {
+                    alert('Cập nhật thành công!, hãy kiểm tra lại các trường thông tin xem còn có lỗi nào không trước khi thoát');
+                }
+            });
+        });
+    </script>
+</body>
+
+@*<script src="~/Client/js/loginn.js"></script>*@
+@*<script src="~/Client/js/signup.js"></script>*@
+
+<style>
+    body {
+        background-color: #fff;
+        color: #544e39;
+    }
+
+    .checkbox:checked + label, .checkbox:not(:checked) + label {
+        background-color: #000;
+    }
+
+    .card-front, .card-back {
+        background-color: #fff;
+        border: 1px solid #0026ff;
+    }
+
+    .form-style {
+        background-color: #fff;
+    }
+
+    .btn {
+        background-color: #0fabff;
+    }
+
+    .link {
+        color: #2f2d23;
+    }
+
+    .card-3d-wrap {
+        width: 540px;
+        height: 600px;
+    }
+
+    .form-group {
+        width: 600px;
+        margin-left: 300px;
+    }
+
+    h4.mb-3.pb-3 {
+        margin-right: 55px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .gioitinh {
+        border: 2px solid #fff4f4;
+        box-shadow: 0 4px 8px 0 rgba(176,164,164,.2);
+        border-radius: 4px 4px 4px 4px;
+        color: #000;
+    }
+
+    input.form-style {
+        color: #786b6b;
+    }
+
+    .section {
+        min-height: 800px;
+    }
+
+    .alert {
+        padding: 0.1rem 0.1rem;
+        margin-bottom: 0rem;
+    }
+</style>
+
+

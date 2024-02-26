@@ -1,0 +1,187 @@
+﻿@model WebMiCay.Areas.Admin.Models.DishViewModel
+@{
+    ViewBag.Title = "Adddish";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<link rel="canonical"
+      href="https://www.wrappixel.com/templates/ample-admin-lite/" />
+<link href="~/Areas/Admin/Assets/Client/css/style.min.css" rel="stylesheet" />
+<body>
+    <div class="page-wrapper">
+        <div class="col-lg-8 col-xlg-9 col-md-12" style="margin-left:30px">
+            <h3 class="hide-menu">Thêm món</h3>
+            <div class="card">
+                <div class="card-body">
+                    @using (Html.BeginForm("Adddish", "Dish", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        <div class="form-group mb-4">
+                            <label class="col-md-12 p-0">Tên món</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="text"
+                                       placeholder="Tên món"
+                                       class="form-control p-0 border-0"
+                                       name="TenMon" />
+                                <div class="alert alert-danger hidden" style="display: none;">
+                                    Không được để trống!
+                                </div>
+                                @if (!String.IsNullOrEmpty(ViewBag.ErrorMessage))
+                                {
+                                    <div class="alert alert-danger">
+                                        @ViewBag.ErrorMessage
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label class="col-md-12 p-0">Giá cả</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="text"
+                                       placeholder="VNĐ"
+                                       class="form-control p-0 border-0"
+                                       name="GiaCa" />
+                                <div class="alert alert-danger hidden" style="display: none;">
+                                    Không được để trống!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label class="col-md-12 p-0">Ảnh món</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="file"
+                                       class="form-control p-0 border-0"
+                                       name="AnhMon" />
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label class="col-md-12 p-0">Mã thể loại</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <select class="form-control p-0 border-0" name="MaTheLoai">
+                                    <option value="">Chọn thể loại</option>
+                                    @foreach (var theLoai in Model.DSTheLoaiMon)
+                                    {
+                                        <option value="@theLoai.MaTheLoai">@theLoai.TenTheLoai</option>
+
+                                    }
+                                </select>
+                                <div class="alert alert-danger hidden" style="display: none;">
+                                    Phải chọn thể loại món!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <div class="col-sm-12">
+                                <button class="btn btn-success">Thêm món</button>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Areas/Admin/Assets/Client/js/jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/app-style-switcher.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/waves.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/custom.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/sidebarmenu.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            $(function () {
+                $(".file-upload-browse").on("click", function () {
+                    var file = $(this)
+                        .parent()
+                        .parent()
+                        .parent()
+                        .find(".file-upload-default");
+                    file.trigger("click");
+                });
+                $(".file-upload-default").on("change", function () {
+                    $(this)
+                        .parent()
+                        .find(".form-control")
+                        .val(
+                            $(this)
+                                .val()
+                                .replace(/C:\\fakepath\\/i, "")
+                        );
+                });
+            });
+        })(jQuery);
+    </script>
+
+    <!-->Xử lý tính hợp lệ khi cập nhật thông tin</!-->
+    <script>
+        $(document).ready(function () {
+            $('.btn-success').click(function (e) {
+                var isValid = true;
+                // Xử lý bỏ trống không nhập hay chọn gì
+                $('input[type="text"]').each(function () {
+                    if ($.trim($(this).val()) == '') {
+                        isValid = false;
+                        $(this).css({
+                            "border": "1px solid red",
+                            "background": "#FFCECE"
+                        });
+                        $(this).siblings('.alert').show();
+                    }
+                    else {
+                        $(this).css({
+                            "border": "",
+                            "background": ""
+                        });
+                        $(this).siblings('.alert').hide();
+                    }
+                });
+                
+                // Xử lý không chọn thể loại món
+                var selectedTheLoai = $('select[name="MaTheLoai"]').val();
+                if (!selectedTheLoai || selectedTheLoai === '') {
+                    isValid = false;
+                    setInvalidField($('select[name="MaTheLoai"]'));
+                } else {
+                    setValidField($('select[name="MaTheLoai"]'));
+                }
+
+                // Xử lý không chọn ảnh
+                var fileInput = $('input[type="file"]');
+                if (fileInput.get(0).files.length === 0) {
+                    isValid = false;
+                    setInvalidField(fileInput);
+                } else {
+                    setValidField(fileInput);
+                }
+
+                if (isValid == false) {
+                    e.preventDefault();
+                } else {
+                    alert('Cập nhật thành công!, hãy kiểm tra lại các trường thông tin xem còn có lỗi nào không trước khi thoát');
+                }
+            });
+
+            // Hàm không hợp lệ
+            function setInvalidField(element) {
+                element.css({
+                    "border": "1px solid red",
+                    "background": "#FFCECE"
+                });
+                element.siblings('.alert').show();
+            }
+
+            // Hàm hợp lệ
+            function setValidField(element) {
+                element.css({
+                    "border": "",
+                    "background": ""
+                });
+                element.siblings('.alert').hide();
+            }
+        });
+    </script>
+</body>

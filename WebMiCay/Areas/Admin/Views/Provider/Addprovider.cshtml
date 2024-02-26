@@ -1,0 +1,88 @@
+﻿@model WebMiCay.Areas.Admin.Models.ProviderViewModel
+@{
+    ViewBag.Title = "Addprovider";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+link rel="canonical"
+      href="https://www.wrappixel.com/templates/ample-admin-lite/" />
+<link href="~/Areas/Admin/Assets/Client/css/style.min.css" rel="stylesheet" />
+<body>
+    <div class="page-wrapper">
+        <div class="col-lg-8 col-xlg-9 col-md-12" style="margin-left:30px">
+            <h3 class="hide-menu">Thêm Nhà Cung Cấp</h3>
+            <div class="card">
+                <div class="card-body">
+                    <form class="form-horizontal form-material" method="post">
+                        <div class="form-group mb-4">
+                            <label for="example-email" class="col-md-12 p-0">Tên nhà cung cấp</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="text"
+                                       placeholder="Nhập tên nhà cung cấp..."
+                                       class="form-control p-0 border-0"
+                                       name="TenNCC" />
+                            </div>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label class="col-md-12 p-0">Địa chỉ nhà cung cấp</label>
+                            <div class="col-md-12 border-bottom p-0">
+                                <input type="text"
+                                       placeholder="Nhập địa chỉ nhà cung cấp..."
+                                       class="form-control p-0 border-0"
+                                       name="DiaChiNCC" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group mb-4 col-xl-6">
+                                <label class="col-md-12 p-0">Số điện thoại nhà cung cấp</label>
+                                <div class="col-md-12 border-bottom p-0">
+                                    <input type="text"
+                                           placeholder="Nhập số điện thoại nhà cung cấp..."
+                                           class="form-control p-0 border-0"
+                                           name="SDTNCC" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mb-4">
+                            <div class="col-sm-12">
+                                <button class="btn btn-success">Thêm nhà cung cấp</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Areas/Admin/Assets/Client/js/jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/app-style-switcher.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/waves.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/custom.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/sidebarmenu.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            $(function () {
+                $(".file-upload-browse").on("click", function () {
+                    var file = $(this)
+                        .parent()
+                        .parent()
+                        .parent()
+                        .find(".file-upload-default");
+                    file.trigger("click");
+                });
+                $(".file-upload-default").on("change", function () {
+                    $(this)
+                        .parent()
+                        .find(".form-control")
+                        .val(
+                            $(this)
+                                .val()
+                                .replace(/C:\\fakepath\\/i, "")
+                        );
+                });
+            });
+        })(jQuery);
+    </script>
+</body>

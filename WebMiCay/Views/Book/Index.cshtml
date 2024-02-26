@@ -1,0 +1,185 @@
+﻿@{
+    var user = Session["user"] as KhachHang;
+}
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutHomeClient.cshtml";
+}
+<head>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet" />
+    <link href="~/Client/Book/css/style.css" rel="stylesheet" />
+    <link href="~/Client/Book/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table" style="padding-bottom:130px;">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Đặt chỗ</h2>
+                <p>Đặt bàn</p>
+            </div>
+
+            <form method="post">
+                <h4 class="mb-3 pb-3" style="color: #000">Đặt bàn</h4>
+                <div class="row">
+                    <div class="form-group mt-2 col-xl-4">
+                        <input type="text" name="TenKH" value="@user.TenKH" class="form-style" placeholder="Họ tên" readonly>
+                        <i class="input-icon uil uil-user"></i>
+                    </div>
+                    <div class="form-group mt-2 col-xl-4">
+                        <input type="tel" name="SDT" value="@user.SDT" class="form-style" placeholder="Số điện thoại" readonly>
+                        <i class="input-icon uil uil-phone"></i>
+                    </div>
+                    <div class="form-group mt-2 col-xl-4">
+                        <input type="date" name="NgayDat" class="form-style" placeholder="Ngày đặt">
+                        <i><iconify-icon class="input-icon" icon="uiw:date" style="margin-top:8px;"></iconify-icon></i>
+                        <div class="alert alert-danger" style="display: none;">
+                            Không được để trống!
+                        </div>
+                        <div class="alert alert-danger hidden" style="display: none;">
+                            Ngày đặt phải lớn hơn ngày hiện tại!
+                        </div>
+
+                    </div>
+                    <div class="form-group mt-2 col-xl-4" style="margin-left:250px">
+                        <input type="time" name="GioDat" class="form-style" placeholder="Giờ đặt">
+                        <i><iconify-icon icon="carbon:map" class="input-icon" style="margin-top:8px;"></iconify-icon></i>
+                        <div class="alert alert-danger hidden" style="display: none;">
+                            Không được để trống!
+                        </div>
+                    </div>
+                    <div class="form-group mt-2 col-xl-4">
+                        <input type="number" name="SoBan" class="form-style" placeholder="Số bàn">
+                        <i><iconify-icon icon="ph:gender-intersex" class="input-icon" style="margin-top:8px;"></iconify-icon></i>
+                        <div class="alert alert-danger" style="display: none;">
+                            Không được để trống!
+                        </div>
+                        <div class="alert alert-danger hidden" style="display: none;">
+                            Phải có ít nhất 1 bàn và nhiều nhất 10 bàn!
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn mt-4 btn-success" style="margin-left: 630px; margin-top: 60px !important;">Đặt bàn</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="~/Client/Book/js/validate.js"></script>
+    <script src="~/Client/Book/js/swiper-bundle.min.js"></script>
+    <script src="~/Client/Book/js/isotope.pkgd.min.js"></script>
+    <script src="~/Client/Book/js/glightbox.min.js"></script>
+    <script src="~/Client/Book/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Client/Book/js/aos.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/jquery.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/app-style-switcher.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/waves.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/custom.js"></script>
+    <script src="~/Areas/Admin/Assets/Client/js/sidebarmenu.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <style>
+        .book-a-table .php-email-form input, .book-a-table .php-email-form textarea {
+            color: #000;
+            background: #fff !important;
+        }
+
+        input.form-style {
+            width: 400px;
+            height: 40px;
+            border-radius: 4px 4px 4px 4px;
+        }
+
+        .mt-2 {
+            margin-top: 3rem !important;
+        }
+
+        button.btn.mt-4 {
+            background-color: #275995;
+            color: #fff;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('.btn-success').click(function (e) {
+                var isValid = true;
+                var dateValue = $('input[type="date"]').val();
+                var currentDate = new Date();
+                console.log(dateValue, currentDate);
+
+                if (dateValue == '') {
+                    isValid = false;
+                    $('input[type="date"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[type="date"]').siblings('.alert').first().css("display", "block");
+                } else {
+                    var selectedDate = new Date(dateValue);
+
+                    if (selectedDate <= currentDate) {
+                        isValid = false;
+                        $('input[type="date"]').siblings('.hidden').first().css("display", "block");
+                    } else {
+                        $('input[type="date"]').css({
+                            "border": "",
+                            "background": ""
+                        });
+                        $('input[type="date"]').siblings('.alert').hide();
+                    }
+                }
+                var timeValue = $('input[type="time"]').val();
+                if (timeValue == '') {
+                    isValid = false;
+                    $('input[type="date"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[type="time"]').siblings('.alert').first().css("display", "block");
+                } else {
+                    $('input[type="time"]').css({
+                        "border": "",
+                        "background": ""
+                    });
+                    $('input[type="time"]').siblings('.alert').hide();
+                }
+                var bookValue = $('input[name="SoBan"]').val();
+                if (bookValue == '') {
+                    isValid = false;
+                    $('input[name="SoBan"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[name="SoBan"]').siblings('.alert').first().css("display", "block");
+                } else if (bookValue < 0 || bookValue > 10) {
+                    isValid = false;
+                    $('input[name="SoBan"]').css({
+                        "border": "1px solid red",
+                        "background": "#FFCECE"
+                    });
+                    $('input[name="SoBan"]').siblings('.hidden').first().css("display", "block");
+
+                } else {
+                    $('input[name="SoBan"]').css({
+                        "border": "",
+                        "background": ""
+                    });
+                    $('input[name="SoBan"]').siblings('.alert').hide();
+                }
+                if (isValid == false) {
+                    e.preventDefault();
+                } else {
+                    alert('Cập nhật thành công!, hãy kiểm tra lại các trường thông tin xem còn có lỗi nào không trước khi thoát');
+                }
+            });
+        });
+
+    </script>
+</body>
+
